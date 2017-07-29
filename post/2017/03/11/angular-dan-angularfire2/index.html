@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angular dan AngularFire2</title>
+  <meta name="author" content="" />
+
+  
+
+  
+
+  <meta name="generator" content="Hugo 0.21" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link href="https://example.orgcss/font-awesome.min.css" rel="stylesheet" id="theme-stylesheet">
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://example.org/true">
+
+  
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700|Roboto&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Roboto', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Roboto Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+  
+  <link href="https://example.orgcss/animate.css" rel="stylesheet">
+
+  
+  
+    
+    <link href="https://example.orgcss/app.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+
+  
+  <link href="https://example.orgcss/app.css" rel="stylesheet">
+  
+
+  
+    
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    
+
+  
+  <link rel="shortcut icon" href="https://example.orgimg/favicon.ico" type="image/x-icon" />
+  
+
+  <link href="https://example.orgcss/google-font.css" rel="stylesheet">
+  <link href="https://example.orgcss/monokai-sublime.css" rel="stylesheet">
+  <link href="https://example.orgcss/owl.carousel.css" rel="stylesheet">
+  <link href="https://example.orgcss/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="https://example.org/index.xml" type="application/rss+xml" title="home">
+
+  
+  <meta property="og:title" content="Angular dan AngularFire2" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/post/2017/03/11/angular-dan-angularfire2//" />
+  <meta property="og:image" content="img/logo.png" />
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="205">
+
+    <div class="navbar navbar-default yaml" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="https://example.org">
+                    <img src="https://example.orgimg/logo.png" alt="Angular dan AngularFire2 logo" class="hidden-xs hidden-sm">
+                    <img src="https://example.orgimg/logo-small.png" alt="Angular dan AngularFire2 logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Angular dan AngularFire2 - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="btn btn-primary" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation" aria-label="Skip to main navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/contact/">Contact</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/about/">About</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ramadhan <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      
+                        <li><a href="/post/2017/05/26/2017-05-26-pre-ramadhan/">Ramadhan-pre</a></li>
+                      
+                    </ul>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+            <div class="title-bar">
+      <div class="container">
+          <h1>Angular dan AngularFire2</h1>
+          
+      </div>
+    </div>
+                
+                
+        <div id="content">
+          <div role="main" id="main-content">
+            <div class="main">
+              <div class="container body-content docs blog">
+                <div class="container">
+                  <div class="row">
+
+                  <div class="col-sm-2 col-md-2">
+                  <div class="hidden-xs col-sm-3 col-md-2">    
+                    <nav id="docs-navbar" class="docs-nav updates-nav visible-md visible-lg">
+                      <ul class="nav" id="main-nav">
+                        <li class="panel collapsed">
+                        <div class="wrapper">                           
+                          
+
+
+
+
+<div class="hidden-xs col-sm-3 col-md-2">
+<nav id="docs-subnavbar">
+<ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+<h4>List Post</h4>
+    
+        <nav id="TableOfContents">
+<ul>
+<li><a href="#membuat-project">Membuat Project</a>
+<ul>
+<li><a href="#membuat-routes">MEMBUAT ROUTES</a></li>
+<li><a href="#membuat-navbar">Membuat Navbar</a></li>
+<li><a href="#firebase-setup">Firebase Setup</a></li>
+<li><a href="#membuat-service-firebase">Membuat Service Firebase</a></li>
+<li><a href="#component-listings">Component Listings</a></li>
+<li><a href="#firebase-authentication-login-dan-logout-menggunakan-account-google">Firebase Authentication Login dan Logout menggunakan account Google</a></li>
+</ul></li>
+<li><a href="#memanggil-halaman-dengan-link">Memanggil Halaman dengan link</a></li>
+<li><a href="#menggunakan-modul-flash-messages">Menggunakan Modul <code>flash-messages</code></a></li>
+<li><a href="#menampilkan-data-products-ke-product-component-html">Menampilkan Data products ke <code>product.component.html</code></a></li>
+<li><a href="#error-1">Error 1</a></li>
+<li><a href="#error-2-error-in-flashmessagesmodule-is-not-an-ngmodule">Error 2: ERROR in FlashMessagesModule is not an NgModule</a></li>
+</ul>
+</nav>
+
+    
+    <a class="twitter-share-button"
+        href="https://twitter.com/share"
+        data-text="#"
+        data-via="Code"
+        data-counturl="#"
+        data-count="vertical">
+        Tweet
+    </a>
+    <div class="connect-widget"></div>
+</ul>  
+
+</nav>
+
+</div>
+
+
+
+
+                        </div>
+                        </li>
+                      </ul>
+                    </nav>                   
+                  </div>
+                  </div>
+                    
+                    
+                    <div class="col-sm-9 col-md-8 body" id="blog-listing-large">
+                        <p class="text-muted text-uppercase mb-small text-right">By <a href="#">diditwbw</a> | March 11, 2017</p>
+                        <div id="post-content">
+                        <div class="wrapper">
+                          
+
+                        
+
+<h1 id="membuat-project">Membuat Project</h1>
+
+<pre><code class="language-javascript">ng new tokoonline
+</code></pre>
+
+<pre><code>npm install firebase angularfire2 --save
+</code></pre>
+
+<pre><code>npm install angular2-flash-messages --save
+</code></pre>
+
+<ul>
+<li>Membuat Component home, Masuk directory <code>components</code> jalankan <code>ng g component home</code> akan terbentuk home dan file lainnya.</li>
+</ul>
+
+<pre><code>D:\Tools\Tutorial-Angular\tokoonline&gt;cd src\app\components
+
+D:\Tools\Tutorial-Angular\tokoonline\src\app\components&gt;ng g component home
+installing component
+  create src\app\components\home\home.component.css
+  create src\app\components\home\home.component.html
+  create src\app\components\home\home.component.spec.ts
+  create src\app\components\home\home.component.ts
+  update src\app\app.module.ts
+
+</code></pre>
+
+<ul>
+<li>Membuat Component listings</li>
+</ul>
+
+<pre><code>D:\Tools\Tutorial-Angular\tokoonline\src\app\components&gt;ng g component listings
+installing component
+  create src\app\components\listings\listings.component.css
+  create src\app\components\listings\listings.component.html
+  create src\app\components\listings\listings.component.spec.ts
+  create src\app\components\listings\listings.component.ts
+  update src\app\app.module.ts
+</code></pre>
+
+<ul>
+<li>Membuat Component navbar</li>
+</ul>
+
+<pre><code>D:\Tools\Tutorial-Angular\tokoonline\src\app\components&gt;ng g component navbar
+installing component
+  create src\app\components\navbar\navbar.component.css
+  create src\app\components\navbar\navbar.component.html
+  create src\app\components\navbar\navbar.component.spec.ts
+  create src\app\components\navbar\navbar.component.ts
+  update src\app\app.module.ts
+</code></pre>
+
+<ul>
+<li>Membuat Component listing</li>
+</ul>
+
+<pre><code>D:\Tools\Tutorial-Angular\tokoonline\src\app\components&gt;ng g component listing
+installing component
+  create src\app\components\listing\listing.component.css
+  create src\app\components\listing\listing.component.html
+  create src\app\components\listing\listing.component.spec.ts
+  create src\app\components\listing\listing.component.ts
+  update src\app\app.module.ts
+</code></pre>
+
+<ul>
+<li>Membuat Component add-listing</li>
+</ul>
+
+<pre><code>D:\Tools\Tutorial-Angular\tokoonline\src\app\components&gt;ng g component add-listing
+installing component
+  create src\app\components\add-listing\add-listing.component.css
+  create src\app\components\add-listing\add-listing.component.html
+  create src\app\components\add-listing\add-listing.component.spec.ts
+  create src\app\components\add-listing\add-listing.component.ts
+  update src\app\app.module.ts
+</code></pre>
+
+<ul>
+<li>Membuat Component edit-listing</li>
+</ul>
+
+<pre><code>D:\Tools\Tutorial-Angular\tokoonline\src\app\components&gt;ng g component edit-listing
+installing component
+  create src\app\components\edit-listing\edit-listing.component.css
+  create src\app\components\edit-listing\edit-listing.component.html
+  create src\app\components\edit-listing\edit-listing.component.spec.ts
+  create src\app\components\edit-listing\edit-listing.component.ts
+  update src\app\app.module.ts
+</code></pre>
+
+<h2 id="membuat-routes">MEMBUAT ROUTES</h2>
+
+<ul>
+<li>Buka file <code>app.module.ts</code> tambahkan baris di bawah :</li>
+</ul>
+
+<p>Import <code>RouterModule dan Routes</code></p>
+
+<pre><code>import { RouterModule, Routes} from '@angular/router';
+</code></pre>
+
+<ul>
+<li>Tambahkan <code>RouterModule.forRoot(appRoutes)</code> pada baris import</li>
+</ul>
+
+<pre><code>  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    RouterModule.forRoot(appRoutes)
+  ]
+</code></pre>
+
+<ul>
+<li>Masih di <code>app.module.ts</code> Tambahkan <code>Const</code></li>
+</ul>
+
+<pre><code>const appRoutes: Routes = [
+  {path:'', component: HomeComponent},
+  {path:'listings', component: ListingsComponent},
+]
+</code></pre>
+
+<ul>
+<li>Edit <code>app.component.ts</code> dan tambahkan baris di bawah</li>
+</ul>
+
+<pre><code>&lt;router-outlet&gt;&lt;/router-outlet&gt;
+</code></pre>
+
+<h2 id="membuat-navbar">Membuat Navbar</h2>
+
+<ul>
+<li>Edit <code>app.component.html</code> dan tambahkan baris di bawah</li>
+</ul>
+
+<pre><code>&lt;app-navbar&gt;&lt;/app-navbar&gt;
+&lt;div class=&quot;container&quot;&gt;
+    &lt;router-outlet&gt;&lt;/router-outlet&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>Buka link untuk mapping css <a href="https://bootswatch.com/cerulean/bootstrap.min.css">bootswatch</a> untuk template</p>
+
+<ul>
+<li>Pada <code>index.html</code> tambahkan <code>bootstrap.min.css</code> baris di bawah :</li>
+</ul>
+
+<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://bootswatch.com/cerulean/bootstrap.min.css&quot;&gt;
+</code></pre>
+
+<ul>
+<li>Buka <a href="http://getbootstrap.com/examples/starter-template/">bootstraps</a> copy sample navbar</li>
+<li>Buka dan edit  <code>navbar.component.html</code></li>
+</ul>
+
+<pre><code>&lt;nav class=&quot;navbar navbar-inverse&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;navbar-header&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbar&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;navbar&quot;&gt;
+            &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;
+            &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+            &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+            &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+          &lt;/button&gt;
+            &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;Brillie&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div id=&quot;navbar&quot; class=&quot;collapse navbar-collapse&quot;&gt;
+            &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+                &lt;li&gt;
+                    &lt;a [routerLink]=&quot;['/']&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a [routerLink]=&quot;['/listings']&quot;&gt;Listings&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a [routerLink]=&quot;['/about']&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;!--/.nav-collapse --&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;
+</code></pre>
+
+<ul>
+<li>Untuk membuat halaman atau page, di angular2 contoh halaman about :
+Dalam folder project jalan kan command untuk membuat component <code>about</code></li>
+</ul>
+
+<pre><code>$ ng g component about
+</code></pre>
+
+<ul>
+<li>Buka <code>app.module.ts</code> dan edit tambahkan import component about :</li>
+</ul>
+
+<pre><code>import { AboutComponent } from './components/about/about.component';
+</code></pre>
+
+<ul>
+<li>Pada baris <code>@NgModule</code> Tambahkan <code>AboutComponent</code> :</li>
+</ul>
+
+<pre><code>@NgModule({
+    description: [
+    AboutComponent
+    ]
+    });
+</code></pre>
+
+<ul>
+<li>Pada Baris <code>const appRoutes</code> tambahkan :</li>
+</ul>
+
+<pre><code>const appRoutes: Routes = [
+{path:'about', component: AboutComponent},{path:'about', component: AboutComponent},
+]
+</code></pre>
+
+<ul>
+<li><p>Tes dan lakukan di browser <code>http://localhost:4200</code></p></li>
+
+<li><p>Untuk menambahkan menu login tambahkan coe di bawah :</p></li>
+</ul>
+
+<pre><code>&lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Login&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h2 id="firebase-setup">Firebase Setup</h2>
+
+<ul>
+<li>Buat akun di google firebase, buka file <code>app.module.ts</code></li>
+</ul>
+
+<p>Import Component <code>firebase</code></p>
+
+<pre><code>import { AngularFireModule } from 'angularfire2';
+</code></pre>
+
+<p>isi firebaseConfig sesuai dengan project yang ada di firebase</p>
+
+<pre><code>export const firebaseConfig = {
+    apiKey: &quot;xxxx&quot;,
+    authDomain: &quot;xxxx&quot;,
+    databaseURL: &quot;xxxx&quot;,
+    storageBucket: &quot;xxxx&quot;,
+    messagingSenderId: &quot;xxxx&quot;
+};
+</code></pre>
+
+<pre><code>imports: [
+AngularFireModule.initializeApp(firebaseConfig),
+],
+</code></pre>
+
+<h2 id="membuat-service-firebase">Membuat Service Firebase</h2>
+
+<p>masuk ke dalam folder <code>/src/app/services</code></p>
+
+<pre><code>\src\app\services&gt;ng g service firebase
+installing service
+  create src\app\services\firebase.service.spec.ts
+  create src\app\services\firebase.service.ts
+  WARNING Service is generated but not provided, it must be provided to be used
+</code></pre>
+
+<ul>
+<li>Buka <code>firebase.service.ts</code> tambahkan import firebase :</li>
+</ul>
+
+<pre><code>import { AngularFire, FirebaseListObservable } from 'angularfire2';
+</code></pre>
+
+<p>tambahkan constructor seperti kode di bawah :</p>
+
+<pre><code>constructor(private af: AngularFire) { }
+</code></pre>
+
+<ul>
+<li>Tambahkan listings</li>
+</ul>
+
+<pre><code>listings: FirebaseListObservable&lt;any[]&gt;
+</code></pre>
+
+<ul>
+<li>Untuk mendapatkan data dari fire base tambahkan kode di bawah :</li>
+</ul>
+
+<pre><code>getListings(){
+    this.listings = this.af.database.list('/listings') as FirebaseListObservable&lt;Listing[]&gt;
+    return this.listings;
+  }
+</code></pre>
+
+<ul>
+<li>Diatas Constructor tambahkan kode di bawah:</li>
+</ul>
+
+<pre><code>listings: FirebaseListObservable&lt;any[]&gt;
+</code></pre>
+
+<ul>
+<li>Berikut kode lengkap <code>firebase.service.ts</code></li>
+</ul>
+
+<pre><code>import { Injectable } from '@angular/core';
+import { AngularFire, FirebaseListObservable } from 'angularfire2';
+
+@Injectable()
+export class FirebaseService {
+
+  listings: FirebaseListObservable&lt;any[]&gt;
+  constructor(private af: AngularFire) { }
+
+  getListings(){
+    this.listings = this.af.database.list('/listings') as FirebaseListObservable&lt;Listing[]&gt;
+    return this.listings;
+    }
+  }
+  interface Listing{
+    $key?: string;
+    $title?: string;
+    $type?: string;
+    $image?: string;
+    $city?: string;
+    $owner?: string;
+    $bedrooms?: string;
+}
+</code></pre>
+
+<ul>
+<li>Selesai koding di firebase.service.ts, buka <code>app.module.ts</code></li>
+</ul>
+
+<pre><code>import { FirebaseService } from './services/firebase.service';
+</code></pre>
+
+<ul>
+<li>Tambahkan baris provider seperti di bawah</li>
+</ul>
+
+<pre><code>providers: [FirebaseService],
+</code></pre>
+
+<blockquote>
+<p>Seperti itu cara setting <code>firebase.config.ts</code> selanjutnya kita akan menggunakan service <code>FirebaseService</code> ke component lainnya.</p>
+</blockquote>
+
+<h2 id="component-listings">Component Listings</h2>
+
+<p>Ok sekarang kita akan menggunakan <code>FirebaseService</code> pada <code>Listings</code> component
+* Buka <code>listings.component.ts</code> tambahkan import <code>FirebaseService</code> seperti kode di bawah :</p>
+
+<pre><code>import { FirebaseService } from '../../services/firebase.service';
+</code></pre>
+
+<ul>
+<li>Pada <code>Constructor</code> tambahkan kode di bawah :</li>
+</ul>
+
+<pre><code>export class ListingsComponent implements OnInit {
+  listings: any;
+  constructor(private firebaseService: FirebaseService) { }
+
+  ngOnInit() {
+    this.firebaseService.getListings().subscribe(listings =&gt; {
+      console.log(listings);
+      this.listings = listings;
+    })
+  }
+}
+</code></pre>
+
+<blockquote>
+<p>Lihat pada console.log, begitulah cara memasang service firebase ke dalam component.</p>
+</blockquote>
+
+<h2 id="firebase-authentication-login-dan-logout-menggunakan-account-google">Firebase Authentication Login dan Logout menggunakan account Google</h2>
+
+<ul>
+<li>Buka <code>app.modul.ts</code>, tambahkan kode di bawah pada <code>firebaseConfig</code> :</li>
+</ul>
+
+<p>Untuk menambahkan authentification pada firebase caranya menggunakan module <code>AuthProviders, AuthMethods</code>, import module di bawah :</p>
+
+<pre><code>import { AngularFireModule, AuthProviders, AuthMethods } from 'angularfire2';
+</code></pre>
+
+<pre><code>const firebaseAuthConfig = {
+  provider: AuthProviders.Google,
+  method: AuthMethods.Popup
+}
+</code></pre>
+
+<ul>
+<li>Tambahkan juga <code>firebaseAuthConfig</code> pada modul <code>app.module.ts</code></li>
+</ul>
+
+<pre><code>imports: [
+    AngularFireModule.initializeApp(firebaseConfig, firebaseAuthConfig),
+  ],
+</code></pre>
+
+<ul>
+<li>Pada class <code>NavComponent</code> buat fungsi login dan logout, yang berada pada file <code>nav.component.ts</code></li>
+</ul>
+
+<pre><code>login(){
+    this.af.auth.login();
+  }
+  logout(){
+    this.af.auth.logout();
+  }
+</code></pre>
+
+<ul>
+<li>Langkah terakhir, buka <code>nav.component.html</code> tambahkan kode di bawah :
+Menampilkan button signin dan signout pada navbar</li>
+</ul>
+
+<pre><code>&lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
+    &lt;li *ngIf=&quot;!(af.auth | async)&quot;&gt;&lt;a (click)=&quot;login()&quot;&gt;Sign in&lt;/a&gt;&lt;/li&gt;
+    &lt;li *ngIf=&quot;(af.auth | async)&quot;&gt;&lt;a (click)=&quot;logout()&quot;&gt;Sign out&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<p>Pada class menu tambahkan kode di bawah :
+- Jika posisi signin, menu <code>products</code> dan <code>tambah products</code> tidak di tampilkan.
+- Saat klik tombol signin akan muncul modal login menggunakan google
+- setelah login menggunkan google menu <code>products</code> dan <code>add-products</code> akan muncul.</p>
+
+<pre><code> &lt;li *ngIf=&quot;(af.auth | async)&quot;&gt; &lt;a [routerLink]=&quot;['/products']&quot;&gt;Products&lt;/a&gt;&lt;/li&gt;
+&lt;li *ngIf=&quot;(af.auth | async)&quot;&gt; &lt;a [routerLink]=&quot;['/add-product']&quot;&gt;Tambah Product&lt;/a&gt;&lt;/li&gt;
+</code></pre>
+
+<h1 id="memanggil-halaman-dengan-link">Memanggil Halaman dengan link</h1>
+
+<ul>
+<li>Selanjutnya kita akan memangil halaman <code>product</code> dari halaman <code>products</code>, sebelum nya buat dahulu componentnya yang di butuhkan :</li>
+</ul>
+
+<pre><code>ng g component pages/products
+ng g component pages/product
+ng g component pages/add-products
+</code></pre>
+
+<ul>
+<li>Pada component <code>app.route.ts</code> isi dengan code di bawah :</li>
+</ul>
+
+<pre><code>    {
+        path: 'products',
+        component: ProductsComponent
+    },
+    {
+        path:'product/:id', 
+        component: ProductComponent
+    },
+    {
+        path: 'add-product',
+        component: AddProductComponent
+    },
+</code></pre>
+
+<ul>
+<li>Pada component <code>products.component.html</code> isi dengan code di bawah :</li>
+</ul>
+
+<pre><code>&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-xs-4&quot;&gt;
+        &lt;ul class=&quot;list-group&quot;&gt;
+            &lt;li class=&quot;list-group-item&quot; *ngFor=&quot;let product of products&quot;&gt;
+                &lt;a [routerLink]=&quot;['/product/'+product.$key]&quot;&gt;{{product.title}}&lt;/a&gt;
+                &lt;a [routerLink]=&quot;['/product/'+product.$key]&quot;&gt;{{product.city}}&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<ul>
+<li>Pada component <code>products</code> isi dengan code di bawah :</li>
+</ul>
+
+<pre><code>import { Component, OnInit } from '@angular/core';
+import { FirebaseService } from '../../services/firebase.service';
+import { AngularFire } from 'angularfire2';
+import { FlashMessagesService } from 'angular2-flash-messages';
+
+@Component({
+  selector: 'app-products',
+  templateUrl: './products.component.html',
+  styleUrls: ['./products.component.css']
+})
+export class ProductsComponent implements OnInit {
+
+  products: any;
+  constructor(
+    private FirebaseService: FirebaseService,
+    public af: AngularFire,
+    public flashMessages: FlashMessagesService
+  ) { }
+
+  ngOnInit() {
+      this.FirebaseService.getProducts().subscribe(products =&gt; {
+      console.log(products);
+      this.products = products;
+    })
+  }
+
+}
+
+</code></pre>
+
+<ul>
+<li>Pada component <code>add-product</code> isi dengan code di bawah :</li>
+</ul>
+
+<pre><code>import { Component, OnInit } from '@angular/core';
+import { FirebaseService } from '../../services/firebase.service';
+import { Router } from '@angular/router';
+
+@Component({
+  selector: 'app-add-product',
+  templateUrl: './add-product.component.html',
+  styleUrls: ['./add-product.component.css']
+})
+export class AddProductComponent implements OnInit {
+  title: any;
+  owner: any;
+  city: any;
+  bedrooms: any;
+  price: any;
+  type: any;
+  image: any;
+
+  constructor(
+    private firebaseService: FirebaseService,
+    private router: Router
+    ) { }
+
+  ngOnInit() {
+  }
+
+  onAddSubmit(){
+  let product = {
+    title: this.title,
+    owner: this.owner,
+    city: this.city,
+    bedrooms: this.bedrooms,
+    price: this.price,
+    type: this.type,
+    image: this.image
+}
+this.firebaseService.addProduct(product);
+this.router.navigate(['products'])
+  }
+}
+</code></pre>
+
+<h1 id="menggunakan-modul-flash-messages">Menggunakan Modul <code>flash-messages</code></h1>
+
+<ul>
+<li>Pada <code>app.modul.ts</code></li>
+</ul>
+
+<pre><code>import {FlashMessagesModule} from 'angular2-flash-messages';
+
+=================================================================
+imports: [
+
+    FlashMessagesModule,
+    RouterModule.forRoot(appRoutes),
+    AngularFireModule.initializeApp(firebaseConfig, firebaseAuthConfig),
+  ],
+</code></pre>
+
+<ul>
+<li>Tambahkan import <code>FlashMessagesService</code> pada file <code>nav.component.ts</code> dan <code>homepages.component.ts</code></li>
+</ul>
+
+<pre><code>import {FlashMessagesService } from 'angular2-flash-messages';
+</code></pre>
+
+<ul>
+<li>Tambahkan Juga constructor <code>FlashMessagesService</code> pada file <code>nav.component.ts</code></li>
+</ul>
+
+<pre><code>constructor(
+    public af: AngularFire,
+    public flashMessage: FlashMessagesService
+) { }
+</code></pre>
+
+<ul>
+<li>Edit fungsi <code>logout</code> pada file <code>nav.component.ts</code> menjadi seperti di bawah :</li>
+</ul>
+
+<pre><code>logout(){
+    this.af.auth.logout();
+    this.flashMessage.show('You Are logout',
+    {cssClass: 'alert-success', timeout: 3000});
+  }
+</code></pre>
+
+<ul>
+<li>Buka <code>app.component.html</code> tambahkan di dalam class container</li>
+</ul>
+
+<pre><code>&lt;flash-messages&gt;&lt;/flash-messages&gt;
+</code></pre>
+
+<h1 id="menampilkan-data-products-ke-product-component-html">Menampilkan Data products ke <code>product.component.html</code></h1>
+
+<p>Untuk menampilakan data product berdasarkan id atau key, dengan menggunakan class <code>FirebaseObjectObservable</code> yaitu di gunakan untuk menampilkan isi data/object yang ada di dalam tabel &lsquo;products&rsquo; pada firebase. atau dalam database sql <code>menampilkan isi dalam field/object</code> dalam tabel.</p>
+
+<p>Contoh data yang di tampilkan dengan <code>FirebaseObjectObservable</code></p>
+
+<pre><code>Object {
+    bedrooms: 15, 
+    city: &quot;San Francisco&quot;, 
+    image: &quot;mansion1.jpg&quot;, 
+    owner: &quot;Bruce Springstien&quot;, 
+    path: &quot;/img/mansion1.jpg&quot;…}
+</code></pre>
+
+<blockquote>
+<p>Sedangkan</p>
+</blockquote>
+
+<ul>
+<li>class <code>FirebaseListObservable</code> yaitu yang di gunakan untuk menampilkan jumlah object yang tersimpan dalam tabel &lsquo;products&rsquo; pada firebase, yang berbentuk array. atau dalam sql <code>menampilkan field/object</code> yang ada dalam tabel dalam bentuk array.</li>
+</ul>
+
+<p>Contoh menampilkan array dengan <code>FirebaseListObservable</code></p>
+
+<pre><code>Array[3]
+0: Object
+1: Object
+2: Object
+
+</code></pre>
+
+<ul>
+<li>Buka file <code>product.component.ts</code></li>
+</ul>
+
+<pre><code>
+</code></pre>
+
+<h1 id="error-1">Error 1</h1>
+
+<pre><code>ive got this strange error when cli compiles: Property 'path' does not exist on type 'any[]' :
+
+In 'firebase.services.ts' make these changes.
+1. Add the following key/value to the INTERFACE for Listing:
+path?: string;
+2. Change declaration of CLASS property 'listing' to : 
+listing: FirebaseObjectObservable&lt;Listing&gt;;
+3. Add TypeHinting to the CLASS method addListing(listing) : 
+addListing(listing: Listing)﻿
+
+</code></pre>
+
+<h1 id="error-2-error-in-flashmessagesmodule-is-not-an-ngmodule">Error 2: ERROR in FlashMessagesModule is not an NgModule</h1>
+
+<pre><code>ERROR in FlashMessagesModule is not an NgModule
+webpack: Failed to compile.
+webpack: Compiling...
+Hash: 8ae7ec82ee7447a3db62
+Time: 5022ms
+</code></pre>
+
+
+                      </div>
+                        </div>
+                        
+                        
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'diditwbw';
+    var disqus_identifier = 'https:\/\/example.org\/post\/2017\/03\/11\/angular-dan-angularfire2\/';
+    var disqus_title = 'Angular dan AngularFire2';
+    var disqus_url = 'https:\/\/example.org\/post\/2017\/03\/11\/angular-dan-angularfire2\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
+                        
+
+                    </div>
+
+                    
+
+
+
+                               
+                    </div>                  
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+        </div>
+        
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        <footer role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="left col-md-7">
+                    <a id="footer-twitter-follow-btn" class="twitter-follow-button" href="https://twitter.com/diditwbw" data-show-count="true" data-lang="en">Follow</a>
+                    
+    
+                    <script>window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));</script>
+                </div>
+                <div class="container">
+                <div class="row">
+                <div class="right col-md-5">
+                    <ul class="links">
+                        <li><a id="footer-terms-link" href="/">Homepage</a></li>
+                        <li><a id="footer-terms-link" href="/blog/">Blog</a></li>
+                        <li><a id="footer-support-link" href="/about/">About</a></li>
+                        <li><a id="footer-privacy-link" href="/contact/">Contact</a></li>
+                        <li><a id="footer-privacy-link" href="/faq/">Faq</a></li>
+                        
+                    </ul>
+                    <hr>
+                    <div class="copyright">
+                    <ul class="links">
+                    <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="http://google-plus.com"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                        <a id="footer-microsoft-link" class="logo" href="https://gohugo.io" alt="Power By Hugo">Power By Hugo</a>
+                        <span>&copy; 2017 <span itemprop="publisher" itemscope itemtype="#"><span itemprop="name">diditwbw</span></span></span> 
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    
+
+    
+
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="https://example.orgjs/front.js"></script>
+
+
+<script src="https://example.orgjs/backToTop.js"></script>
+<script src="https://example.orgjs/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+  </body>
+</html>

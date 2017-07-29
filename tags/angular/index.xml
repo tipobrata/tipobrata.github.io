@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angular on home</title>
+    <link>https://example.org/tags/angular/</link>
+    <description>Recent content in Angular on home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Mar 2017 21:49:20 +0200</lastBuildDate>
+    
+	<atom:link href="https://example.org/tags/angular/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Start With Angular</title>
+      <link>https://example.org/post/2017/03/26/cara-instalasi-angular4/</link>
+      <pubDate>Sun, 26 Mar 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/post/2017/03/26/cara-instalasi-angular4/</guid>
+      <description>Memulai Angular4 dan Firebase  Install @angular/cli@latest angular/cli  npm install -g @angular/cli@latest   Buat Project menggunakan angular/cli  $ ng new ng4-quickstart  D:\Tools\Tutorial-Angular\ng4-quickstart&amp;gt;ng -v _ _ ____ _ ___ / \ _ __ __ _ _ _| | __ _ _ __ / ___| | |_ _| / △ \ | &#39;_ \ / _` | | | | |/ _` | &#39;__| | | | | | | / ___ \| | | | (_| | |_| | | (_| | | | |___| |___ | | /_/ \_\_| |_|\__, |\__,_|_|\__,_|_| \____|_____|___| |___/ @angular/cli: 1.</description>
+    </item>
+    
+    <item>
+      <title>Angular dan AngularFire2</title>
+      <link>https://example.org/post/2017/03/11/angular-dan-angularfire2/</link>
+      <pubDate>Sat, 11 Mar 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/post/2017/03/11/angular-dan-angularfire2/</guid>
+      <description>Membuat Project ng new tokoonline  npm install firebase angularfire2 --save  npm install angular2-flash-messages --save   Membuat Component home, Masuk directory components jalankan ng g component home akan terbentuk home dan file lainnya.  D:\Tools\Tutorial-Angular\tokoonline&amp;gt;cd src\app\components D:\Tools\Tutorial-Angular\tokoonline\src\app\components&amp;gt;ng g component home installing component create src\app\components\home\home.component.css create src\app\components\home\home.component.html create src\app\components\home\home.component.spec.ts create src\app\components\home\home.component.ts update src\app\app.module.ts   Membuat Component listings  D:\Tools\Tutorial-Angular\tokoonline\src\app\components&amp;gt;ng g component listings installing component create src\app\components\listings\listings.component.css create src\app\components\listings\listings.</description>
+    </item>
+    
+    <item>
+      <title>Angular-material dan Firebase</title>
+      <link>https://example.org/post/2017/03/10/2017-04-10-angular-material-firebase/</link>
+      <pubDate>Fri, 10 Mar 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/post/2017/03/10/2017-04-10-angular-material-firebase/</guid>
+      <description>Menggunakan Material pada Angular material-angular
+List Array Pada Firebase Buat project Angular
+$ ng new fireMaterial $ cd fireMaterial  Install Material dalam folder project
+npm install --save @angular/material  Install Module Angular Animation
+npm install --save @angular/animations  Pada app.module.ts, import code di bawah:
+import {BrowserAnimationsModule} from &#39;@angular/platform-browser/animations&#39;; import { MaterialModule, MdButtonModule, MdCheckboxModule} from &#39;@angular/material&#39;;  dan
+ imports: [ MaterialModule, BrowserAnimationsModule, MdButtonModule, MdCheckboxModule ],  Memsasang Theme material, Buka index.</description>
+    </item>
+    
+    <item>
+      <title>Angular dan PrimeNg</title>
+      <link>https://example.org/post/2017/02/07/2017-02-07-angular2-primeng-tutorial/</link>
+      <pubDate>Tue, 07 Feb 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/post/2017/02/07/2017-02-07-angular2-primeng-tutorial/</guid>
+      <description>Buat Project dengan angular2-cli $ ng new angularprimetutorial installing ng2 create .editorconfig create README.md create src\app\app.component.css create src\app\app.component.html create src\app\app.component.spec.ts create src\app\app.component.ts create src\app\app.module.ts create src\assets\.gitkeep create src\environments\environment.prod.ts create src\environments\environment.ts create src\favicon.ico create src\index.html create src\main.ts create src\polyfills.ts create src\styles.css create src\test.ts create src\tsconfig.json create angular-cli.json create e2e\app.e2e-spec.ts create e2e\app.po.ts create e2e\tsconfig.json create .gitignore create karma.conf.js create package.json create protractor.conf.js create tslint.json Successfully initialized git. Installing packages for tooling via npm.</description>
+    </item>
+    
+    <item>
+      <title>Dasar Angular</title>
+      <link>https://example.org/post/2017/01/24/2017-01-24-belajar-angular/</link>
+      <pubDate>Tue, 24 Jan 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/post/2017/01/24/2017-01-24-belajar-angular/</guid>
+      <description>Belajar dasar angular Sebelumnya download dan install nodeJs sesuai Os dan platform yang di gunakan, berikut cara Update npm secara global
+npm install npm -g  install npm secara global
+npm install npm -g  install angular-cli secara global
+npm install -g angular-cli  install typescript secara global
+npm Install -g typescript  Memulai angular quickstart
+ download angular quickstar https://github.com/angular/quickstart extract, rename dan masuk folder untuk project angular sebagai contoh : cd angular-start jalankan $ npm install untuk install dependency yang di butuhkan, terletak di file package.</description>
+    </item>
+    
+    <item>
+      <title>Ionic dan Web Service</title>
+      <link>https://example.org/post/2016/12/25/2016-12-25-ionic-mobileapp-redit/</link>
+      <pubDate>Sun, 25 Dec 2016 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/post/2016/12/25/2016-12-25-ionic-mobileapp-redit/</guid>
+      <description>Membuat applikasi ionic dan menggunakan web service  $ ionic start ionreddit &amp;ndash;v2 Buka http://localhost:8100/  Kita akan mengganti halaman home dan contact menjadi reddits dan settings, kita akan mengambil contoh dari folder about berikut langkah nya.
+Folder yang harus di pahami :
+ /ionreddit/src/app/app.module.ts
+ /ionreddit/src/pages
+ /ionreddit/src/pages/tabs
+  1. Buka Folder app -&amp;gt; /ionreddit/src/app/app.module.ts  import { NgModule, ErrorHandler } from &#39;@angular/core&#39;; import { IonicApp, IonicModule, IonicErrorHandler } from &#39;ionic-angular&#39;; import { MyApp } from &#39;.</description>
+    </item>
+    
+  </channel>
+</rss>

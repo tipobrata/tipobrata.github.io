@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angular-material dan Firebase</title>
+  <meta name="author" content="" />
+
+  
+
+  
+
+  <meta name="generator" content="Hugo 0.21" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link href="https://example.orgcss/font-awesome.min.css" rel="stylesheet" id="theme-stylesheet">
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://example.org/true">
+
+  
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700|Roboto&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Roboto', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Roboto Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+  
+  <link href="https://example.orgcss/animate.css" rel="stylesheet">
+
+  
+  
+    
+    <link href="https://example.orgcss/app.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+
+  
+  <link href="https://example.orgcss/app.css" rel="stylesheet">
+  
+
+  
+    
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    
+
+  
+  <link rel="shortcut icon" href="https://example.orgimg/favicon.ico" type="image/x-icon" />
+  
+
+  <link href="https://example.orgcss/google-font.css" rel="stylesheet">
+  <link href="https://example.orgcss/monokai-sublime.css" rel="stylesheet">
+  <link href="https://example.orgcss/owl.carousel.css" rel="stylesheet">
+  <link href="https://example.orgcss/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="https://example.org/index.xml" type="application/rss+xml" title="home">
+
+  
+  <meta property="og:title" content="Angular-material dan Firebase" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/post/2017/03/10/2017-04-10-angular-material-firebase//" />
+  <meta property="og:image" content="img/logo.png" />
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="205">
+
+    <div class="navbar navbar-default yaml" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="https://example.org">
+                    <img src="https://example.orgimg/logo.png" alt="Angular-material dan Firebase logo" class="hidden-xs hidden-sm">
+                    <img src="https://example.orgimg/logo-small.png" alt="Angular-material dan Firebase logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Angular-material dan Firebase - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="btn btn-primary" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation" aria-label="Skip to main navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/contact/">Contact</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/about/">About</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ramadhan <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      
+                        <li><a href="/post/2017/05/26/2017-05-26-pre-ramadhan/">Ramadhan-pre</a></li>
+                      
+                    </ul>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+            <div class="title-bar">
+      <div class="container">
+          <h1>Angular-material dan Firebase</h1>
+          
+      </div>
+    </div>
+                
+                
+        <div id="content">
+          <div role="main" id="main-content">
+            <div class="main">
+              <div class="container body-content docs blog">
+                <div class="container">
+                  <div class="row">
+
+                  <div class="col-sm-2 col-md-2">
+                  <div class="hidden-xs col-sm-3 col-md-2">    
+                    <nav id="docs-navbar" class="docs-nav updates-nav visible-md visible-lg">
+                      <ul class="nav" id="main-nav">
+                        <li class="panel collapsed">
+                        <div class="wrapper">                           
+                          
+
+
+
+
+<div class="hidden-xs col-sm-3 col-md-2">
+<nav id="docs-subnavbar">
+<ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+<h4>List Post</h4>
+    
+        <nav id="TableOfContents">
+<ul>
+<li><a href="#menggunakan-material-pada-angular">Menggunakan Material pada Angular</a>
+<ul>
+<li><a href="#list-array-pada-firebase">List Array Pada Firebase</a></li>
+<li><a href="#login-dan-register">Login dan Register</a></li>
+<li><a href="#file-upload">File Upload</a></li>
+<li><a href="#script-google-analytic">Script Google Analytic:</a></li>
+</ul></li>
+</ul>
+</nav>
+
+    
+    <a class="twitter-share-button"
+        href="https://twitter.com/share"
+        data-text="#"
+        data-via="Code"
+        data-counturl="#"
+        data-count="vertical">
+        Tweet
+    </a>
+    <div class="connect-widget"></div>
+</ul>  
+
+</nav>
+
+</div>
+
+
+
+
+                        </div>
+                        </li>
+                      </ul>
+                    </nav>                   
+                  </div>
+                  </div>
+                    
+                    
+                    <div class="col-sm-9 col-md-8 body" id="blog-listing-large">
+                        <p class="text-muted text-uppercase mb-small text-right">By <a href="#">diditwbw</a> | March 10, 2017</p>
+                        <div id="post-content">
+                        <div class="wrapper">
+                          
+
+                        
+
+<h1 id="menggunakan-material-pada-angular">Menggunakan Material pada Angular</h1>
+
+<p><a href="https://material.angular.io/">material-angular</a></p>
+
+<h2 id="list-array-pada-firebase">List Array Pada Firebase</h2>
+
+<p><strong>Buat project Angular</strong></p>
+
+<pre><code>$ ng new fireMaterial
+$ cd fireMaterial
+</code></pre>
+
+<p><strong>Install Material dalam folder project</strong></p>
+
+<pre><code>npm install --save @angular/material
+</code></pre>
+
+<p><strong>Install Module Angular Animation</strong></p>
+
+<pre><code>npm install --save @angular/animations
+</code></pre>
+
+<p><strong>Pada <code>app.module.ts</code>, import code di bawah:</strong></p>
+
+<pre><code>import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { MaterialModule, MdButtonModule, MdCheckboxModule} from '@angular/material';
+</code></pre>
+
+<p><strong>dan</strong></p>
+
+<pre><code>  imports: [
+    MaterialModule,
+    BrowserAnimationsModule,
+    MdButtonModule,
+    MdCheckboxModule
+  ],
+</code></pre>
+
+<p><strong>Memsasang Theme material, Buka <code>index.html</code> pada root folder copy code di bawah :</strong></p>
+
+<pre><code>&lt;link href=&quot;../node_modules/@angular/material/prebuilt-themes/indigo-pink.css&quot; rel=&quot;stylesheet&quot;&gt;
+</code></pre>
+
+<p><strong>Memasang Icon Material, Buka <code>index.html</code> pada root folder copy code di bawah :</strong></p>
+
+<pre><code>&lt;link href=&quot;https://fonts.googleapis.com/icon?family=Material+Icons&quot; rel=&quot;stylesheet&quot;&gt;
+</code></pre>
+
+<blockquote>
+<p>Gesture: tambahkan <code>hammerJs</code> ke dalam folder project, jika kita akan
+menggunakan beberapa components seperti (md-slide-toggle, md-slider, mdTooltip) menggunakan HammerJS untuk gestures.*</p>
+</blockquote>
+
+<p><strong>Install hammerJS</strong></p>
+
+<pre><code>npm install --save hammerjs
+</code></pre>
+
+<p><strong>Setelah installing, import pada app&rsquo;s root module.</strong></p>
+
+<pre><code>import 'hammerjs';
+</code></pre>
+
+<p><strong>Buka file <code>.angular-cli.json</code>, edit bagian di bawah :</strong></p>
+
+<pre><code>&quot;styles&quot;: [
+        &quot;styles.css&quot;
+      ],
+</code></pre>
+
+<p><strong>Menjadi</strong></p>
+
+<pre><code>&quot;styles&quot;: [
+        &quot;styles.scss&quot;
+      ],
+</code></pre>
+
+<p><strong>lakukan Hal yang sama</strong></p>
+
+<pre><code>&quot;defaults&quot;: {
+    &quot;styleExt&quot;: &quot;css&quot;,
+    &quot;component&quot;: {}
+  }
+</code></pre>
+
+<p><strong>Menjadi</strong></p>
+
+<pre><code>&quot;defaults&quot;: {
+    &quot;styleExt&quot;: &quot;scss&quot;,
+    &quot;component&quot;: {}
+  }
+</code></pre>
+
+<p><strong>Define SCSS, jika meggunakan scss buat file <code>style.scss</code> dan copy kode di bawah(jangan lupa hapus terlebih daulu file style.css):</strong></p>
+
+<pre><code>@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+
+// Include the base styles for Angular Material core. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+@include mat-core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue.
+$candy-app-primary: mat-palette($mat-indigo);
+$candy-app-accent:  mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$candy-app-warn:    mat-palette($mat-red);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent, $candy-app-warn);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+.app-primary{
+@include angular-material-theme($candy-app-theme);
+}
+
+</code></pre>
+
+<p><strong>Selanjutnya buka file <code>app.component.html</code> copy code di bawah :</strong></p>
+
+<pre><code>&lt;md-sidenav-container class=&quot;app-primary&quot;&gt;
+
+    &lt;md-sidenav #sidenav mode=&quot;side&quot; class=&quot;app-sidenav&quot;&gt;
+        Sidenav
+    &lt;/md-sidenav&gt;
+
+    &lt;md-toolbar color=&quot;primary&quot;&gt;
+        &lt;button class=&quot;app-icon-button&quot; (click)=&quot;sidenav.toggle()&quot;&gt;
+      &lt;i class=&quot;material-icons app-toolbar-menu&quot;&gt;menu&lt;/i&gt;
+    &lt;/button&gt; Angular Material2 Example App
+
+        &lt;span class=&quot;app-toolbar-filler&quot;&gt;&lt;/span&gt;
+        &lt;button md-button (click)=&quot;isDarkTheme = !isDarkTheme&quot;&gt;TOGGLE DARK THEME&lt;/button&gt;
+    &lt;/md-toolbar&gt;
+
+    &lt;div class=&quot;app-content&quot;&gt;
+        Ini adalah Contetnt
+    &lt;/div&gt;
+
+&lt;/md-sidenav-container&gt;
+&lt;span class=&quot;app-action&quot; [class.m2app-dark]=&quot;isDarkTheme&quot;&gt;
+  &lt;button md-fab&gt;&lt;md-icon&gt;check circle&lt;/md-icon&gt;&lt;/button&gt;
+&lt;/span&gt;
+</code></pre>
+
+<p><strong>Untuk merubah warna buka file style.scss dan copy kode di bawah:</strong></p>
+
+<pre><code>$candy-app-primary: mat-palette($mat-light-green);
+$candy-app-accent: mat-palette($mat-light-green, A200, A100, A400);
+</code></pre>
+
+<p><strong>Install AngularFire2 ke dalam folder project</strong></p>
+
+<pre><code>npm install firebase angularfire2 --save
+</code></pre>
+
+<p><strong>Buka <code>app.module.ts</code> import module di bawah:</strong></p>
+
+<pre><code>import { AngularFireModule, AuthProviders, AuthMethods } from 'angularfire2';
+</code></pre>
+
+<p><strong>Import api key dr firebase:</strong></p>
+
+<pre><code>export const firebaseConfig = {
+    apiKey: &quot;&quot;,
+    authDomain: &quot;&quot;,
+    databaseURL: &quot;&quot;,
+    storageBucket: &quot;&quot;,
+    messagingSenderId: &quot;&quot;
+};
+</code></pre>
+
+<p><strong>Import config agar bisa login menggunakan account google.</strong></p>
+
+<pre><code>const fbAuthConfig = {
+  provider: AuthProviders.Google,
+  method: AuthMethods.Password
+};
+</code></pre>
+
+<p><strong>Import pada NgModule</strong></p>
+
+<pre><code>imports: [
+AngularFireModule.initializeApp(firebaseConfig, fbAuthConfig),
+],
+</code></pre>
+
+<blockquote>
+<p>Buka <code>app.component.ts</code> import module berikut</p>
+</blockquote>
+
+<pre><code>import { AngularFire, FirebaseListObservable } from 'angularfire2';
+</code></pre>
+
+<blockquote>
+<p>Tambahkan pada constructor module angularfire</p>
+</blockquote>
+
+<pre><code>constructor(private af: AngularFire){
+}
+</code></pre>
+
+<blockquote>
+<p>Buat databse di <code>firebase console</code> buat collection/database dengan nama <code>tweets</code></p>
+
+<p>Buka <code>app.component.html</code> untuk menampilkan array <code>message</code> dengan menggunakan <code>*ngFor</code> menggunakan class <code>FirebaseListObservable</code> berikut codenya:</p>
+</blockquote>
+
+<pre><code>&lt;div class=&quot;app-content&quot;&gt;
+        &lt;ul&gt;
+            &lt;li class=&quot;text&quot; *ngFor=&quot;let item of items | async&quot;&gt;
+                &lt;a&gt;{{item.message}}&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+
+<blockquote>
+<p>Buka <code>app.component.ts</code> dan tambahkan kode di bawah</p>
+
+<p>Di atas constructor definisikan <code>FirebaseListObservable&lt;any[]&gt;</code></p>
+</blockquote>
+
+<pre><code>items: FirebaseListObservable&lt;any[]&gt;;
+</code></pre>
+
+<blockquote>
+<p>dan di dalam constructor tambahkan kode di bawah:</p>
+</blockquote>
+
+<pre><code>this.items = af.database.list('/tweets');
+</code></pre>
+
+<p>Ket:</p>
+
+<ul>
+<li><p><code>af</code>: definisi/config firebase  yang di pasang pada contructor.</p></li>
+
+<li><p><code>database</code>: class database</p></li>
+
+<li><p><code>list</code>: menggunakan method dari <code>FirebaseListObservable</code> yaitu untuk menampilkan array pada table atau collection.</p></li>
+
+<li><p><code>tweets</code>: nama table yang sudah di buat di firebase</p></li>
+</ul>
+
+<h2 id="login-dan-register">Login dan Register</h2>
+
+<p><strong>user.model.ts</strong>
+Buat file <code>user.model.ts</code> yang ada dalam folder <code>app/model</code></p>
+
+<pre><code>export class User {
+    public id?:string;
+    public firstName?:string;
+    public lastName?:string;
+    public email?:string;
+    public password?:string;
+    public avatar?:string;
+}
+</code></pre>
+
+<p><strong>Isi file <code>firebase.service.ts</code></strong></p>
+
+<pre><code>import { Injectable } from '@angular/core';
+import { AngularFire, FirebaseListObservable } from 'angularfire2';
+import { MdDialog } from '@angular/material';
+import { AppComponent } from '../app.component';
+import { LoginComponent } from '../users/login/login.component';
+
+@Injectable()
+export class FirebaseService {
+  
+  tweet: FirebaseListObservable&lt;any[]&gt;
+  constructor(private af: AngularFire, private dialog: MdDialog) { }
+
+    getTweets(){
+    this.tweet = this.af.database.list('/tweets') as
+    FirebaseListObservable&lt;Tweets[]&gt;
+    return this.tweet;
+    }
+}
+
+interface Tweets{
+   $key?: string;
+   $message?: string;
+}
+
+</code></pre>
+
+<p><strong>Login</strong></p>
+
+<p>Isi File <code>login.component.ts</code></p>
+
+<pre><code>import { Component, OnInit } from '@angular/core';
+//import { FirebaseService } from '../../services/firebase.service';
+import { User } from '../../models/user.model';
+import { AngularFire, FirebaseListObservable } from 'angularfire2';
+import { MdDialogRef, MdDialog } from '@angular/material';
+import {RegisterComponent} from '../register/register.component';
+
+
+@Component({
+  selector: 'app-login',
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.scss']
+})
+export class LoginComponent implements OnInit {
+
+  private user: User = new User();
+  message: string;
+  constructor(private dialogRef: MdDialogRef&lt;LoginComponent&gt;, private af: AngularFire, private dialog: MdDialog) {
+    this.af.auth.subscribe(auth =&gt; {
+      if(auth){
+        this.dialogRef.close();
+      }
+    });
+   }
+
+  ngOnInit() {
+  }
+
+  onLogin(){
+    if(!this.user.email || !this.user.password){
+      this.message = &quot;Email dan Password Salah&quot;;
+      return;
+    }
+    let data = {
+      email: this.user.email,
+      password: this.user.password,
+    };
+    //console.log(&quot;User data:&quot;, this.user);
+    this.af.auth.login(data);
+  }
+
+  register(){
+    this.dialogRef.close();
+    this.dialog.open(RegisterComponent, {
+        width: '500px'
+    });
+  }
+}
+
+</code></pre>
+
+<p>Isi File <code>login.component.html</code></p>
+
+<pre><code>&lt;form #f=&quot;ngForm&quot; (ngSubmit)=&quot;onLogin()&quot;&gt;
+    &lt;div class=&quot;message&quot;&gt;
+        &lt;p&gt;{{message}}&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;md-input-container class=&quot;full-width&quot;&gt;
+            &lt;input mdInput type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Email&quot; [(ngModel)]=&quot;user.email&quot; /&gt;
+        &lt;/md-input-container&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;md-input-container class=&quot;full-width&quot;&gt;
+            &lt;input mdInput type=&quot;password&quot; name=&quot;password&quot; placeholder=&quot;Password&quot; [(ngModel)]=&quot;user.password&quot; /&gt;
+        &lt;/md-input-container&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;button md-raised-button color=&quot;default&quot; type=&quot;submit&quot;&gt;Login&lt;/button&gt; Or &lt;button md-button type=&quot;button&quot; (click)=&quot;register()&quot;&gt;Register&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+</code></pre>
+
+<p><strong>Register</strong>
+berikut isi file <code>register.component.ts</code></p>
+
+<pre><code>import { Component, OnInit } from '@angular/core';
+import { User } from '../../models/user.model';
+import { AngularFire, FirebaseListObservable } from 'angularfire2';
+import { MdDialogRef } from '@angular/material';
+
+@Component({
+  selector: 'app-register',
+  templateUrl: './register.component.html',
+  styleUrls: ['./register.component.scss']
+})
+export class RegisterComponent implements OnInit {
+
+  user: User = new User();
+  message: string;
+  constructor(private af: AngularFire, private dialogRef: MdDialogRef&lt;RegisterComponent&gt;) { 
+
+    this.af.auth.subscribe(auth =&gt; {
+      if(auth){
+        this.dialogRef.close();
+        let userId = auth.uid;
+        const user = this.af.database.object('/users/'+userId);
+        let userData = {
+          firstName: this.user.firstName,
+          lastName: this.user.lastName,
+          avatar: this.user.avatar,
+        };
+        user.set(userData);
+      }
+  });
+  }
+
+  ngOnInit() {
+  }
+
+  onRegister(){
+    //console.log(this.user);
+
+    let data = {
+      email: this.user.email,
+      password: this.user.password
+    }
+
+    this.af.auth.createUser(data);
+  }
+
+}
+
+</code></pre>
+
+<p>Berikut isi file <code>register.component.html</code></p>
+
+<pre><code>&lt;form #f=&quot;ngForm&quot; (ngSubmit)=&quot;onRegister()&quot;&gt;
+    &lt;div class=&quot;message&quot;&gt;
+        &lt;p&gt;{{message}}&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;md-input-container class=&quot;full-width&quot;&gt;
+            &lt;input mdInput type=&quot;text&quot; name=&quot;firstName&quot; placeholder=&quot;First Name&quot; [(ngModel)]=&quot;user.firstName&quot; /&gt;
+        &lt;/md-input-container&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;md-input-container class=&quot;full-width&quot;&gt;
+            &lt;input mdInput type=&quot;text&quot; name=&quot;lastName&quot; placeholder=&quot;Last Name&quot; [(ngModel)]=&quot;user.lastName&quot; /&gt;
+        &lt;/md-input-container&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;md-input-container class=&quot;full-width&quot;&gt;
+            &lt;input mdInput type=&quot;text&quot; name=&quot;avatar&quot; placeholder=&quot;Avatar Url&quot; [(ngModel)]=&quot;user.avatar&quot; /&gt;
+        &lt;/md-input-container&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;md-input-container class=&quot;full-width&quot;&gt;
+            &lt;input mdInput type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Email&quot; [(ngModel)]=&quot;user.email&quot; /&gt;
+        &lt;/md-input-container&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;md-input-container class=&quot;full-width&quot;&gt;
+            &lt;input mdInput type=&quot;password&quot; name=&quot;password&quot; placeholder=&quot;Password&quot; [(ngModel)]=&quot;user.password&quot; /&gt;
+        &lt;/md-input-container&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;button md-raised-button color=&quot;default&quot; type=&quot;submit&quot;&gt;Register&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+</code></pre>
+
+<h2 id="file-upload">File Upload</h2>
+
+<p>Pada <code>register.component.ts</code> rubah pada seperti code di bawah.</p>
+
+<pre><code>constructor(private af: AngularFire, private dialogRef: MdDialogRef&lt;RegisterComponent&gt;) { 
+
+    this.af.auth.subscribe(auth =&gt; {
+      if(auth){
+        this.dialogRef.close();
+        let userId = auth.uid;
+        const user = this.af.database.object('/users/'+userId);
+        let userData = this.user;
+        delete userData.password;
+        user.set(userData);
+      }
+  });
+  }
+</code></pre>
+
+<p>Menambahkan field <code>created</code> pada table <code>users</code> di firebase</p>
+
+<p>pada <code>user.model.ts</code> tambahkan kode di bawah :</p>
+
+<pre><code>public created?:any;
+</code></pre>
+
+<p>Tambahkan import di bawah pada <code>register.component.ts</code></p>
+
+<pre><code>import * as firebase from 'firebase';
+</code></pre>
+
+<p>Tambahkan kode di bawah untuk menampilkan <code>timestamp</code></p>
+
+<pre><code>userData.created = firebase.database.ServerValue.TIMESTAMP;
+</code></pre>
+
+<p>lakukan register ulang</p>
+
+<p>Menampilkan Avatar
+Buat terlebih dahulu component avatar</p>
+
+<pre><code>ng  g component shared/avatar
+</code></pre>
+
+<p>Setelah di buat kita akan menampilkan avatar pada modal register</p>
+
+<p>edit <code>register.component.html</code> dan tambahkan kode di bawah:</p>
+
+<pre><code>&lt;div class=&quot;form-group form-avatar-control&quot;&gt;
+//selector dari component avatar
+&lt;avatar&gt;&lt;/avatar&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>edit <code>avatar.component.html</code> untuk membuat input file gambar:</p>
+
+<pre><code>&lt;input type=&quot;file&quot; name=&quot;file&quot; #fileInput (change)=&quot;handleUpload($event, fileInput)&quot; /&gt;
+</code></pre>
+
+<p>testing dengan console.log buat function <code>handleUpload</code> ketikkan functionnya di bawah :</p>
+
+<pre><code>handleUpload(e: any, input: any): void{
+    console.log(&quot;file object&quot;,input.files[0]);
+  }
+</code></pre>
+
+<h2 id="script-google-analytic">Script Google Analytic:</h2>
+
+<pre><code>&lt;body&gt;
+  &lt;material2-app-app&gt;Loading...&lt;/material2-app-app&gt;
+
+  &lt;script&gt;
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'nomor_di_isi', 'auto');
+    ga('send', 'pageview');
+  &lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+
+
+                      </div>
+                        </div>
+                        
+                        
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'diditwbw';
+    var disqus_identifier = 'https:\/\/example.org\/post\/2017\/03\/10\/2017-04-10-angular-material-firebase\/';
+    var disqus_title = 'Angular-material dan Firebase';
+    var disqus_url = 'https:\/\/example.org\/post\/2017\/03\/10\/2017-04-10-angular-material-firebase\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
+                        
+
+                    </div>
+
+                    
+
+
+
+                               
+                    </div>                  
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+        </div>
+        
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        <footer role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="left col-md-7">
+                    <a id="footer-twitter-follow-btn" class="twitter-follow-button" href="https://twitter.com/diditwbw" data-show-count="true" data-lang="en">Follow</a>
+                    
+    
+                    <script>window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));</script>
+                </div>
+                <div class="container">
+                <div class="row">
+                <div class="right col-md-5">
+                    <ul class="links">
+                        <li><a id="footer-terms-link" href="/">Homepage</a></li>
+                        <li><a id="footer-terms-link" href="/blog/">Blog</a></li>
+                        <li><a id="footer-support-link" href="/about/">About</a></li>
+                        <li><a id="footer-privacy-link" href="/contact/">Contact</a></li>
+                        <li><a id="footer-privacy-link" href="/faq/">Faq</a></li>
+                        
+                    </ul>
+                    <hr>
+                    <div class="copyright">
+                    <ul class="links">
+                    <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="http://google-plus.com"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                        <a id="footer-microsoft-link" class="logo" href="https://gohugo.io" alt="Power By Hugo">Power By Hugo</a>
+                        <span>&copy; 2017 <span itemprop="publisher" itemscope itemtype="#"><span itemprop="name">diditwbw</span></span></span> 
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    
+
+    
+
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="https://example.orgjs/front.js"></script>
+
+
+<script src="https://example.orgjs/backToTop.js"></script>
+<script src="https://example.orgjs/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+  </body>
+</html>

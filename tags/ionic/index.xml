@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ionic on home</title>
+    <link>https://example.org/tags/ionic/</link>
+    <description>Recent content in Ionic on home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Feb 2017 21:49:20 +0200</lastBuildDate>
+    
+	<atom:link href="https://example.org/tags/ionic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ionic to Apk=Android</title>
+      <link>https://example.org/post/2017/02/06/2017-02-06-build-apk-android/</link>
+      <pubDate>Mon, 06 Feb 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/post/2017/02/06/2017-02-06-build-apk-android/</guid>
+      <description>Start Belajar ionic dan membuild ionic ke apk sehingga bisa di gunakan pada android
+Memasang AndroidSDK Download terlebih dahuluAndroidSdk sesuai OS
+Pasang Path di windows, Buat variabel di bawah:
+Variabel Name: ANDROID_HOME Variabel Value: D:\Tools\android_sdk\tools;D:\Tools\android_sdk\platform-tools  Jalankan di cmd :
+set ANDROID_HOME=D:\Tools\android_sdk set PATH=%PATH%;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools  Download versi/API Android dari yang bawah dan yang tertinggi. contoh: 4.0(API 14) dan 7.1(API 25)
+//Optional Install - apache ant
+MEMBUAT APPLIKASI MOBIL DENGAN ANGULAR 2 DAN IONIC 2 Tools yang di butuhkan :</description>
+    </item>
+    
+    <item>
+      <title>Ionic dan Web Service</title>
+      <link>https://example.org/post/2016/12/25/2016-12-25-ionic-mobileapp-redit/</link>
+      <pubDate>Sun, 25 Dec 2016 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/post/2016/12/25/2016-12-25-ionic-mobileapp-redit/</guid>
+      <description>Membuat applikasi ionic dan menggunakan web service  $ ionic start ionreddit &amp;ndash;v2 Buka http://localhost:8100/  Kita akan mengganti halaman home dan contact menjadi reddits dan settings, kita akan mengambil contoh dari folder about berikut langkah nya.
+Folder yang harus di pahami :
+ /ionreddit/src/app/app.module.ts
+ /ionreddit/src/pages
+ /ionreddit/src/pages/tabs
+  1. Buka Folder app -&amp;gt; /ionreddit/src/app/app.module.ts  import { NgModule, ErrorHandler } from &#39;@angular/core&#39;; import { IonicApp, IonicModule, IonicErrorHandler } from &#39;ionic-angular&#39;; import { MyApp } from &#39;.</description>
+    </item>
+    
+  </channel>
+</rss>

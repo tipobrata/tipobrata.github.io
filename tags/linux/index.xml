@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on home</title>
+    <link>https://example.org/tags/linux/</link>
+    <description>Recent content in Linux on home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 May 2017 21:49:20 +0200</lastBuildDate>
+    
+	<atom:link href="https://example.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Startup Java On Linux Mint</title>
+      <link>https://example.org/post/2017/05/22/instalasi-java-jdk-di-linux-mint/</link>
+      <pubDate>Mon, 22 May 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/post/2017/05/22/instalasi-java-jdk-di-linux-mint/</guid>
+      <description>Instalasi JDK 8 di Linux Mint Download JDK sesuai OS
+Java JDK
+$ file /sbin/init /sbin/init: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=e8b7c47e46abe359442f435fc95144279c5ddec5, stripped  $ java -version java version &amp;quot;1.7.0_111&amp;quot; OpenJDK Runtime Environment (IcedTea 2.6.7) (7u111-2.6.7-2~deb8u1) OpenJDK 64-Bit Server VM (build 24.111-b01, mixed mode)   Cara Hapus OpenJDK yang sudah terinstall  $ sudo apt-get purge openjdk-*   Buat directory java  $ sudo mkdir -p /usr/local/java $ sudo cp -r jdk-8u60-linux-x64.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on home</title>
+    <link>https://example.org/tags/</link>
+    <description>Recent content in Tags on home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Mar 2017 21:49:20 +0200</lastBuildDate>
+    
+	<atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Angular</title>
+      <link>https://example.org/tags/angular/</link>
+      <pubDate>Sun, 26 Mar 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/tags/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angularfire2</title>
+      <link>https://example.org/tags/angularfire2/</link>
+      <pubDate>Sat, 11 Mar 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/tags/angularfire2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bootstraps</title>
+      <link>https://example.org/tags/bootstraps/</link>
+      <pubDate>Sun, 30 Apr 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/tags/bootstraps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ionic</title>
+      <link>https://example.org/tags/ionic/</link>
+      <pubDate>Mon, 06 Feb 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/tags/ionic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ipsum</title>
+      <link>https://example.org/tags/ipsum/</link>
+      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      
+      <guid>https://example.org/tags/ipsum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://example.org/tags/linux/</link>
+      <pubDate>Mon, 22 May 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Loopback</title>
+      <link>https://example.org/tags/loopback/</link>
+      <pubDate>Sun, 21 May 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/tags/loopback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Material</title>
+      <link>https://example.org/tags/material/</link>
+      <pubDate>Fri, 10 Mar 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/tags/material/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Primeng</title>
+      <link>https://example.org/tags/primeng/</link>
+      <pubDate>Tue, 07 Feb 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/tags/primeng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sass</title>
+      <link>https://example.org/tags/sass/</link>
+      <pubDate>Sun, 30 Apr 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/tags/sass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strongloop</title>
+      <link>https://example.org/tags/strongloop/</link>
+      <pubDate>Sun, 21 May 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://example.org/tags/strongloop/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
