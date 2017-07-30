@@ -3,203 +3,203 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.org/post/2017/05/26/2017-05-26-pre-ramadhan/</loc>
+    <loc>https://tipobrata.github.io/post/2017/05/26/2017-05-26-pre-ramadhan/</loc>
     <lastmod>2017-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/about/</loc>
+    <loc>https://tipobrata.github.io/about/</loc>
     <lastmod>2017-05-26T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/contact/</loc>
+    <loc>https://tipobrata.github.io/contact/</loc>
     <lastmod>2017-05-26T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/2017/05/22/instalasi-java-jdk-di-linux-mint/</loc>
+    <loc>https://tipobrata.github.io/post/2017/05/22/instalasi-java-jdk-di-linux-mint/</loc>
     <lastmod>2017-05-22T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/2017/05/21/loopback-tutorial/</loc>
+    <loc>https://tipobrata.github.io/post/2017/05/21/loopback-tutorial/</loc>
     <lastmod>2017-05-21T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/2017/04/30/bootstraps-with-sass/</loc>
+    <loc>https://tipobrata.github.io/post/2017/04/30/bootstraps-with-sass/</loc>
     <lastmod>2017-04-30T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/2017/03/26/cara-instalasi-angular4/</loc>
+    <loc>https://tipobrata.github.io/post/2017/03/26/cara-instalasi-angular4/</loc>
     <lastmod>2017-03-26T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/2017/03/11/angular-dan-angularfire2/</loc>
+    <loc>https://tipobrata.github.io/post/2017/03/11/angular-dan-angularfire2/</loc>
     <lastmod>2017-03-11T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/2017/03/10/2017-04-10-angular-material-firebase/</loc>
+    <loc>https://tipobrata.github.io/post/2017/03/10/2017-04-10-angular-material-firebase/</loc>
     <lastmod>2017-03-10T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/2017/02/07/2017-02-07-angular2-primeng-tutorial/</loc>
+    <loc>https://tipobrata.github.io/post/2017/02/07/2017-02-07-angular2-primeng-tutorial/</loc>
     <lastmod>2017-02-07T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/2017/02/06/2017-02-06-build-apk-android/</loc>
+    <loc>https://tipobrata.github.io/post/2017/02/06/2017-02-06-build-apk-android/</loc>
     <lastmod>2017-02-06T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/2017/01/24/2017-01-24-belajar-angular/</loc>
+    <loc>https://tipobrata.github.io/post/2017/01/24/2017-01-24-belajar-angular/</loc>
     <lastmod>2017-01-24T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/2016/12/25/2016-12-25-ionic-mobileapp-redit/</loc>
+    <loc>https://tipobrata.github.io/post/2016/12/25/2016-12-25-ionic-mobileapp-redit/</loc>
     <lastmod>2016-12-25T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/post/2015/10/10/migrate-from-jekyll/</loc>
+    <loc>https://tipobrata.github.io/post/2015/10/10/migrate-from-jekyll/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.org/categories/angular/</loc>
+    <loc>https://tipobrata.github.io/tags/angular/</loc>
     <lastmod>2017-03-26T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/angular/</loc>
+    <loc>https://tipobrata.github.io/categories/angular/</loc>
     <lastmod>2017-03-26T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/angularfire2/</loc>
+    <loc>https://tipobrata.github.io/tags/angularfire2/</loc>
     <lastmod>2017-03-11T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/blog/</loc>
+    <loc>https://tipobrata.github.io/blog/</loc>
     <lastmod>2017-05-22T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/bootstraps/</loc>
+    <loc>https://tipobrata.github.io/tags/bootstraps/</loc>
     <lastmod>2017-04-30T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://tipobrata.github.io/categories/</loc>
     <lastmod>2017-03-26T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/categories/frontend/</loc>
+    <loc>https://tipobrata.github.io/categories/frontend/</loc>
     <lastmod>2017-04-30T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/categories/ionic/</loc>
+    <loc>https://tipobrata.github.io/tags/ionic/</loc>
     <lastmod>2017-02-06T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/ionic/</loc>
+    <loc>https://tipobrata.github.io/categories/ionic/</loc>
     <lastmod>2017-02-06T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/ipsum/</loc>
+    <loc>https://tipobrata.github.io/tags/ipsum/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/categories/linux/</loc>
+    <loc>https://tipobrata.github.io/tags/linux/</loc>
     <lastmod>2017-05-22T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/linux/</loc>
+    <loc>https://tipobrata.github.io/categories/linux/</loc>
     <lastmod>2017-05-22T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/categories/loopback/</loc>
+    <loc>https://tipobrata.github.io/tags/loopback/</loc>
     <lastmod>2017-05-21T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/loopback/</loc>
+    <loc>https://tipobrata.github.io/categories/loopback/</loc>
     <lastmod>2017-05-21T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/categories/lorem/</loc>
+    <loc>https://tipobrata.github.io/categories/lorem/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/categories/material/</loc>
+    <loc>https://tipobrata.github.io/tags/material/</loc>
     <lastmod>2017-03-10T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/material/</loc>
+    <loc>https://tipobrata.github.io/categories/material/</loc>
     <lastmod>2017-03-10T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/primeng/</loc>
+    <loc>https://tipobrata.github.io/tags/primeng/</loc>
     <lastmod>2017-02-07T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/sass/</loc>
+    <loc>https://tipobrata.github.io/tags/sass/</loc>
     <lastmod>2017-04-30T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/strongloop/</loc>
+    <loc>https://tipobrata.github.io/tags/strongloop/</loc>
     <lastmod>2017-05-21T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://tipobrata.github.io/tags/</loc>
     <lastmod>2017-03-26T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://tipobrata.github.io/</loc>
     <lastmod>2017-05-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

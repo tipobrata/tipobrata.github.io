@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ionic on home</title>
-    <link>https://example.org/categories/ionic/</link>
+    <link>https://tipobrata.github.io/categories/ionic/</link>
     <description>Recent content in Ionic on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Feb 2017 21:49:20 +0200</lastBuildDate>
     
-	<atom:link href="https://example.org/categories/ionic/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tipobrata.github.io/categories/ionic/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ionic to Apk=Android</title>
-      <link>https://example.org/post/2017/02/06/2017-02-06-build-apk-android/</link>
+      <link>https://tipobrata.github.io/post/2017/02/06/2017-02-06-build-apk-android/</link>
       <pubDate>Mon, 06 Feb 2017 21:49:20 +0200</pubDate>
       
-      <guid>https://example.org/post/2017/02/06/2017-02-06-build-apk-android/</guid>
+      <guid>https://tipobrata.github.io/post/2017/02/06/2017-02-06-build-apk-android/</guid>
       <description>Start Belajar ionic dan membuild ionic ke apk sehingga bisa di gunakan pada android
 Memasang AndroidSDK Download terlebih dahuluAndroidSdk sesuai OS
 Pasang Path di windows, Buat variabel di bawah:
@@ -28,10 +28,10 @@ MEMBUAT APPLIKASI MOBIL DENGAN ANGULAR 2 DAN IONIC 2 Tools yang di butuhkan :</d
     
     <item>
       <title>Ionic dan Web Service</title>
-      <link>https://example.org/post/2016/12/25/2016-12-25-ionic-mobileapp-redit/</link>
+      <link>https://tipobrata.github.io/post/2016/12/25/2016-12-25-ionic-mobileapp-redit/</link>
       <pubDate>Sun, 25 Dec 2016 21:49:20 +0200</pubDate>
       
-      <guid>https://example.org/post/2016/12/25/2016-12-25-ionic-mobileapp-redit/</guid>
+      <guid>https://tipobrata.github.io/post/2016/12/25/2016-12-25-ionic-mobileapp-redit/</guid>
       <description>Membuat applikasi ionic dan menggunakan web service  $ ionic start ionreddit &amp;ndash;v2 Buka http://localhost:8100/  Kita akan mengganti halaman home dan contact menjadi reddits dan settings, kita akan mengambil contoh dari folder about berikut langkah nya.
 Folder yang harus di pahami :
  /ionreddit/src/app/app.module.ts

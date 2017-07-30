@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on home</title>
-    <link>https://example.org/categories/</link>
+    <link>https://tipobrata.github.io/categories/</link>
     <description>Recent content in Categories on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Mar 2017 21:49:20 +0200</lastBuildDate>
     
-	<atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tipobrata.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Angular</title>
-      <link>https://example.org/categories/angular/</link>
+      <link>https://tipobrata.github.io/categories/angular/</link>
       <pubDate>Sun, 26 Mar 2017 21:49:20 +0200</pubDate>
       
-      <guid>https://example.org/categories/angular/</guid>
+      <guid>https://tipobrata.github.io/categories/angular/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Frontend</title>
-      <link>https://example.org/categories/frontend/</link>
+      <link>https://tipobrata.github.io/categories/frontend/</link>
       <pubDate>Sun, 30 Apr 2017 21:49:20 +0200</pubDate>
       
-      <guid>https://example.org/categories/frontend/</guid>
+      <guid>https://tipobrata.github.io/categories/frontend/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ionic</title>
-      <link>https://example.org/categories/ionic/</link>
+      <link>https://tipobrata.github.io/categories/ionic/</link>
       <pubDate>Mon, 06 Feb 2017 21:49:20 +0200</pubDate>
       
-      <guid>https://example.org/categories/ionic/</guid>
+      <guid>https://tipobrata.github.io/categories/ionic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://example.org/categories/linux/</link>
+      <link>https://tipobrata.github.io/categories/linux/</link>
       <pubDate>Mon, 22 May 2017 21:49:20 +0200</pubDate>
       
-      <guid>https://example.org/categories/linux/</guid>
+      <guid>https://tipobrata.github.io/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Loopback</title>
-      <link>https://example.org/categories/loopback/</link>
+      <link>https://tipobrata.github.io/categories/loopback/</link>
       <pubDate>Sun, 21 May 2017 21:49:20 +0200</pubDate>
       
-      <guid>https://example.org/categories/loopback/</guid>
+      <guid>https://tipobrata.github.io/categories/loopback/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lorem</title>
-      <link>https://example.org/categories/lorem/</link>
+      <link>https://tipobrata.github.io/categories/lorem/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>https://example.org/categories/lorem/</guid>
+      <guid>https://tipobrata.github.io/categories/lorem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Material</title>
-      <link>https://example.org/categories/material/</link>
+      <link>https://tipobrata.github.io/categories/material/</link>
       <pubDate>Fri, 10 Mar 2017 21:49:20 +0200</pubDate>
       
-      <guid>https://example.org/categories/material/</guid>
+      <guid>https://tipobrata.github.io/categories/material/</guid>
       <description></description>
     </item>
     

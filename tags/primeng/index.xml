@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Primeng on home</title>
-    <link>https://example.org/tags/primeng/</link>
+    <link>https://tipobrata.github.io/tags/primeng/</link>
     <description>Recent content in Primeng on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 07 Feb 2017 21:49:20 +0200</lastBuildDate>
     
-	<atom:link href="https://example.org/tags/primeng/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tipobrata.github.io/tags/primeng/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Angular dan PrimeNg</title>
-      <link>https://example.org/post/2017/02/07/2017-02-07-angular2-primeng-tutorial/</link>
+      <link>https://tipobrata.github.io/post/2017/02/07/2017-02-07-angular2-primeng-tutorial/</link>
       <pubDate>Tue, 07 Feb 2017 21:49:20 +0200</pubDate>
       
-      <guid>https://example.org/post/2017/02/07/2017-02-07-angular2-primeng-tutorial/</guid>
+      <guid>https://tipobrata.github.io/post/2017/02/07/2017-02-07-angular2-primeng-tutorial/</guid>
       <description>Buat Project dengan angular2-cli $ ng new angularprimetutorial installing ng2 create .editorconfig create README.md create src\app\app.component.css create src\app\app.component.html create src\app\app.component.spec.ts create src\app\app.component.ts create src\app\app.module.ts create src\assets\.gitkeep create src\environments\environment.prod.ts create src\environments\environment.ts create src\favicon.ico create src\index.html create src\main.ts create src\polyfills.ts create src\styles.css create src\test.ts create src\tsconfig.json create angular-cli.json create e2e\app.e2e-spec.ts create e2e\app.po.ts create e2e\tsconfig.json create .gitignore create karma.conf.js create package.json create protractor.conf.js create tslint.json Successfully initialized git. Installing packages for tooling via npm.</description>
     </item>
     
