@@ -6,10 +6,68 @@
     <description>Recent content in Blogs on home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 May 2017 21:49:20 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jul 2017 21:49:20 +0200</lastBuildDate>
     
 	<atom:link href="https://tipobrata.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo Sites On Github</title>
+      <link>https://tipobrata.github.io/post/2017/07/28/hugo-sites-on-github-pages/</link>
+      <pubDate>Fri, 28 Jul 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://tipobrata.github.io/post/2017/07/28/hugo-sites-on-github-pages/</guid>
+      <description>Buat Blog Hugo $ hugo new site sample-hugo Congratulations! Your new Hugo site is created in /home/nagamaska/Tools/Hugo/project/sample-hugo. Just a few more steps and you&#39;re ready to go: 1. Download a theme into the same-named folder. Choose a theme from https://themes.gohugo.io/, or create your own with the &amp;quot;hugo new theme &amp;lt;THEMENAME&amp;gt;&amp;quot; command. 2. Perhaps you want to add some content. You can add single files with &amp;quot;hugo new &amp;lt;SECTIONNAME&amp;gt;/&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;&amp;quot;. 3. Start the built-in live server via &amp;quot;hugo server&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial Gulp dan Less</title>
+      <link>https://tipobrata.github.io/post/2017/07/23/boostraps-gulp-less/</link>
+      <pubDate>Sun, 23 Jul 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://tipobrata.github.io/post/2017/07/23/boostraps-gulp-less/</guid>
+      <description>Buat file bower.js { &amp;quot;name&amp;quot;: &amp;quot;example&amp;quot;, &amp;quot;private&amp;quot;: true, &amp;quot;version&amp;quot;: &amp;quot;1.0.0&amp;quot;, &amp;quot;dependencies&amp;quot;: { &amp;quot;bootstrap&amp;quot;: &amp;quot;^3.3.7&amp;quot; } }  Buat file package.js { &amp;quot;name&amp;quot;: &amp;quot;example&amp;quot;, &amp;quot;private&amp;quot;: true, &amp;quot;version&amp;quot;: &amp;quot;1.0.0&amp;quot;, &amp;quot;dependencies&amp;quot;: { &amp;quot;gulp&amp;quot;: &amp;quot;^3.9.1&amp;quot;, &amp;quot;gulp-autoprefixer&amp;quot;: &amp;quot;^4.0.0&amp;quot;, &amp;quot;gulp-cssmin&amp;quot;: &amp;quot;^0.2.0&amp;quot;, &amp;quot;gulp-less&amp;quot;: &amp;quot;^3.3.2&amp;quot;, &amp;quot;gulp-rename&amp;quot;: &amp;quot;^1.2.2&amp;quot;, &amp;quot;gulp-webserver&amp;quot;: &amp;quot;^0.9.1&amp;quot; } }  Buat file bootstrap.less yang terletak bootstraps-gulp/source/less/bootstrap.less @import &amp;quot;../../bower_components/bootstrap/less/bootstrap&amp;quot;;  Install Gulp dan bower npm install -g gulp bower  Install plugin gulp ke dalam folder project npm i -S gulp gulp-autoprefixer gulp-less gulp-cssmin gulp-rename gulp-webserver  Install boostraps melalui bower ke dalam folder project bower i -S bootstrap  Buat file gulpfile.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial MongoDB</title>
+      <link>https://tipobrata.github.io/post/2017/07/14/belajar-mongodb/</link>
+      <pubDate>Fri, 14 Jul 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://tipobrata.github.io/post/2017/07/14/belajar-mongodb/</guid>
+      <description>Contoh Database { firstname:&amp;quot;dodot&amp;quot;, lastname:&amp;quot;didit&amp;quot;, memberships: [&amp;quot;mem1&amp;quot;, &amp;quot;mem2&amp;quot;], address:{ street: &amp;quot;jl. pramuka sokaraja&amp;quot;, city:&amp;quot;banyumas&amp;quot; } contacts:[ {name:&amp;quot;brath&amp;quot;, relationship:&amp;quot;friend&amp;quot;}, ] }  Membuat Tabel &amp;gt; use mycustomers switched to db mycustomers &amp;gt; db mycustomers  Membuat user db.createUser({ user:&amp;quot;didit&amp;quot;, pwd:&amp;quot;12345&amp;quot;, roles: [&amp;quot;readWrite&amp;quot;, &amp;quot;dbAdmin&amp;quot;] });  Membuat collection / table &amp;gt; db.createCollection(&#39;customers&#39;);  Insert data ke collection customers &amp;gt; db.customers.insert({first_name:&amp;quot;wirog&amp;quot;, last_name:&amp;quot;sebastian&amp;quot;}); WriteResult({ &amp;quot;nInserted&amp;quot; : 1 })  Insert 2 data &amp;gt; db.</description>
+    </item>
+    
+    <item>
+      <title>Belajar MySql/MariaDb</title>
+      <link>https://tipobrata.github.io/post/2017/07/06/belajar-mysql-mariadb/</link>
+      <pubDate>Thu, 06 Jul 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://tipobrata.github.io/post/2017/07/06/belajar-mysql-mariadb/</guid>
+      <description>Login ke terminal mysql cd /opt/lampp/bin $ ./mysql -u testuser -p  Create Table MASTER create table t_master as select 1 id, &#39;A&#39; data union all select 2 id, &#39;B&#39; data union all select 3 id, &#39;C&#39; data;  MariaDB [testdb]&amp;gt; select * from t_master; +----+------+ | id | data | +----+------+ | 1 | A | | 2 | B | | 3 | C | +----+------+ 3 rows in set (0.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Ssh</title>
+      <link>https://tipobrata.github.io/post/2017/07/06/ssh-keys-on-linux/</link>
+      <pubDate>Thu, 06 Jul 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://tipobrata.github.io/post/2017/07/06/ssh-keys-on-linux/</guid>
+      <description>Cara mengecek key rsa yang sudah di ada $ ls -al ~/.ssh  Cara membuat ssh Keys dengan ssh $ ssh-keygen -t rsa -b 4096 -C &amp;quot;xperia.tipobrata@gmail.com&amp;quot; Generating public/private rsa key pair. Enter file in which to save the key (/home/nagamaska/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /home/nagamaska/.ssh/id_rsa. Your public key has been saved in /home/nagamaska/.ssh/id_rsa.pub. The key fingerprint is: 31:1e:74:a3:dc:17:cd:5a:a9:5d:4c:28:c1:a9:28:c8 xperia.</description>
+    </item>
+    
+    <item>
+      <title>Instalasi Lampp Server</title>
+      <link>https://tipobrata.github.io/post/2017/06/22/instalasi-lampp-di-linux/</link>
+      <pubDate>Thu, 22 Jun 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://tipobrata.github.io/post/2017/06/22/instalasi-lampp-di-linux/</guid>
+      <description>Download xampp-linux-5.6.3-0-installer.run terlebih dahulu
+Cara Menjalankan Instalasi Ubah permission:
+sudo chmod +x xampp-linux-5.6.3-0-installer.run  Install aplikasi:
+sudo ./xampp-linux-5.6.3-0-installer.run  Untuk menghentikan Xampp Service: sudo /opt/lampp/lampp stop  Untuk menjalankan Xampp service: sudo /opt/lampp/lampp start  Untuk menjalankan Xampp dalam versi GUI, bisa menggunakan printah berikut. cd /opt/lampp ./manager-linux.run  Cara menjalankan aplikasi versi GUI, kamu lebih meudah untuk menjalankan service Apache, dan MySql.
+Cara Menjalankan Yii2 copy folder project ke directory /opt/lampp/httdoc/ dan tambahkan permission di bawah</description>
+    </item>
     
     <item>
       <title>Startup Java On Linux Mint</title>
@@ -19,7 +77,7 @@
       <guid>https://tipobrata.github.io/post/2017/05/22/instalasi-java-jdk-di-linux-mint/</guid>
       <description>Instalasi JDK 8 di Linux Mint Download JDK sesuai OS
 Java JDK
-$ file /sbin/init /sbin/init: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=e8b7c47e46abe359442f435fc95144279c5ddec5, stripped  $ java -version java version &amp;quot;1.7.0_111&amp;quot; OpenJDK Runtime Environment (IcedTea 2.6.7) (7u111-2.6.7-2~deb8u1) OpenJDK 64-Bit Server VM (build 24.111-b01, mixed mode)   Cara Hapus OpenJDK yang sudah terinstall  $ sudo apt-get purge openjdk-*   Buat directory java  $ sudo mkdir -p /usr/local/java $ sudo cp -r jdk-8u60-linux-x64.</description>
+$ file /sbin/init /sbin/init: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=e8b7c47e46abe359442f435fc95144279c5ddec5, stripped  Cek java version $ java -version java version &amp;quot;1.7.0_111&amp;quot; OpenJDK Runtime Environment (IcedTea 2.6.7) (7u111-2.6.7-2~deb8u1) OpenJDK 64-Bit Server VM (build 24.111-b01, mixed mode)  Cara Hapus OpenJDK yang sudah terinstall $ sudo apt-get purge openjdk-*  Buat directory java</description>
     </item>
     
     <item>

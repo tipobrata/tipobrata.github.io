@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tipobrata.github.io/post/2017/07/28/hugo-sites-on-github-pages/</loc>
+    <lastmod>2017-07-28T21:49:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/post/2017/07/23/boostraps-gulp-less/</loc>
+    <lastmod>2017-07-23T21:49:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/post/2017/07/14/belajar-mongodb/</loc>
+    <lastmod>2017-07-14T21:49:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/post/2017/07/06/belajar-mysql-mariadb/</loc>
+    <lastmod>2017-07-06T21:49:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/post/2017/07/06/ssh-keys-on-linux/</loc>
+    <lastmod>2017-07-06T21:49:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/post/2017/06/22/instalasi-lampp-di-linux/</loc>
+    <lastmod>2017-06-22T21:49:20+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tipobrata.github.io/about/</loc>
     <lastmod>2017-05-26T21:49:20+02:00</lastmod>
   </url>
@@ -63,13 +93,13 @@
   </url>
   
   <url>
-    <loc>https://tipobrata.github.io/categories/angular/</loc>
+    <loc>https://tipobrata.github.io/tags/angular/</loc>
     <lastmod>2017-03-26T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tipobrata.github.io/tags/angular/</loc>
+    <loc>https://tipobrata.github.io/categories/angular/</loc>
     <lastmod>2017-03-26T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -82,7 +112,7 @@
   
   <url>
     <loc>https://tipobrata.github.io/blog/</loc>
-    <lastmod>2017-05-22T21:49:20+02:00</lastmod>
+    <lastmod>2017-07-28T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -93,20 +123,44 @@
   </url>
   
   <url>
+    <loc>https://tipobrata.github.io/tags/bower/</loc>
+    <lastmod>2017-07-23T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://tipobrata.github.io/categories/</loc>
     <lastmod>2017-03-26T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tipobrata.github.io/categories/frontend/</loc>
-    <lastmod>2017-04-30T21:49:20+02:00</lastmod>
+    <loc>https://tipobrata.github.io/categories/database/</loc>
+    <lastmod>2017-07-14T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tipobrata.github.io/categories/ionic/</loc>
-    <lastmod>2017-02-06T21:49:20+02:00</lastmod>
+    <loc>https://tipobrata.github.io/categories/frontend/</loc>
+    <lastmod>2017-07-23T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/tags/gulp/</loc>
+    <lastmod>2017-07-23T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/tags/hugo/</loc>
+    <lastmod>2017-07-28T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/categories/hugo/</loc>
+    <lastmod>2017-07-28T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -117,20 +171,26 @@
   </url>
   
   <url>
-    <loc>https://tipobrata.github.io/categories/linux/</loc>
-    <lastmod>2017-05-22T21:49:20+02:00</lastmod>
+    <loc>https://tipobrata.github.io/categories/ionic/</loc>
+    <lastmod>2017-02-06T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tipobrata.github.io/tags/linux/</loc>
-    <lastmod>2017-05-22T21:49:20+02:00</lastmod>
+    <lastmod>2017-07-06T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tipobrata.github.io/categories/loopback/</loc>
-    <lastmod>2017-05-21T21:49:20+02:00</lastmod>
+    <loc>https://tipobrata.github.io/categories/linux/</loc>
+    <lastmod>2017-07-06T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/tags/lmde/</loc>
+    <lastmod>2017-06-22T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -141,14 +201,38 @@
   </url>
   
   <url>
-    <loc>https://tipobrata.github.io/categories/material/</loc>
-    <lastmod>2017-03-10T21:49:20+02:00</lastmod>
+    <loc>https://tipobrata.github.io/categories/loopback/</loc>
+    <lastmod>2017-05-21T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/tags/mariadb/</loc>
+    <lastmod>2017-07-14T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tipobrata.github.io/tags/material/</loc>
     <lastmod>2017-03-10T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/categories/material/</loc>
+    <lastmod>2017-03-10T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/tags/mongodb/</loc>
+    <lastmod>2017-07-14T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/tags/mysql/</loc>
+    <lastmod>2017-07-14T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -160,7 +244,13 @@
   
   <url>
     <loc>https://tipobrata.github.io/tags/sass/</loc>
-    <lastmod>2017-04-30T21:49:20+02:00</lastmod>
+    <lastmod>2017-07-23T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/tags/ssh/</loc>
+    <lastmod>2017-07-06T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -178,7 +268,7 @@
   
   <url>
     <loc>https://tipobrata.github.io/</loc>
-    <lastmod>2017-05-26T21:49:20+02:00</lastmod>
+    <lastmod>2017-07-28T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   

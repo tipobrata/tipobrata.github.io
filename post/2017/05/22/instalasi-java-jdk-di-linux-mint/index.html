@@ -194,20 +194,22 @@
     
         <nav id="TableOfContents">
 <ul>
-<li><a href="#instalasi-jdk-8-di-linux-mint">Instalasi JDK 8 di Linux Mint</a>
+<li>
 <ul>
 <li>
 <ul>
+<li><a href="#instalasi-jdk-8-di-linux-mint">Instalasi JDK 8 di Linux Mint</a></li>
+<li><a href="#cek-java-version">Cek java version</a></li>
+<li><a href="#cara-hapus-openjdk-yang-sudah-terinstall">Cara Hapus OpenJDK yang sudah terinstall</a></li>
 <li><a href="#memberitahu-sistem-bahwa-oracle-java-jdk-jre-harus-menjadi-default-java">Memberitahu sistem bahwa Oracle Java JDK/JRE harus menjadi default Java.</a></li>
-</ul></li>
 <li><a href="#install-netbean-8-2">Install Netbean 8.2</a></li>
 <li><a href="#install-maven">Install Maven</a></li>
 <li><a href="#install-mysql-5-7-di-debian-8-dengan-menggunakan-apt-repository">Install MySQl 5.7 di debian 8 dengan menggunakan APT Repository</a></li>
 <li><a href="#install-tomcat-8-5-x-di-debian-jessy">Install Tomcat 8.5.x di debian jessy</a></li>
-</ul></li>
-<li><a href="#download-dan-extrak-paket-tomcat-8">Download dan extrak paket tomcat 8</a>
-<ul>
 <li><a href="#install-intellij-idea">Install IntelliJ IDEA</a></li>
+<li><a href="#install-android-studio">Install Android Studio</a></li>
+<li><a href="#install-mongodb">Install MongoDB</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -247,7 +249,7 @@
 
                         
 
-<h1 id="instalasi-jdk-8-di-linux-mint">Instalasi JDK 8 di Linux Mint</h1>
+<h3 id="instalasi-jdk-8-di-linux-mint">Instalasi JDK 8 di Linux Mint</h3>
 
 <p>Download JDK sesuai OS</p>
 
@@ -258,6 +260,8 @@
 
 </code></pre>
 
+<h3 id="cek-java-version">Cek java version</h3>
+
 <pre><code>$ java -version
 java version &quot;1.7.0_111&quot;
 OpenJDK Runtime Environment (IcedTea 2.6.7) (7u111-2.6.7-2~deb8u1)
@@ -265,16 +269,12 @@ OpenJDK 64-Bit Server VM (build 24.111-b01, mixed mode)
 
 </code></pre>
 
-<ul>
-<li>Cara Hapus OpenJDK yang sudah terinstall</li>
-</ul>
+<h3 id="cara-hapus-openjdk-yang-sudah-terinstall">Cara Hapus OpenJDK yang sudah terinstall</h3>
 
 <pre><code>$ sudo apt-get purge openjdk-* 
 </code></pre>
 
-<ul>
-<li>Buat directory java</li>
-</ul>
+<p><strong>Buat directory java</strong></p>
 
 <pre><code>$ sudo mkdir -p /usr/local/java
 $ sudo cp -r jdk-8u60-linux-x64.tar.gz /usr/local/java/
@@ -289,8 +289,11 @@ $ cd /usr/local/java
 <pre><code>sudo tar xvzf jdk-8u60-linux-x64.tar.gz
 </code></pre>
 
-<p><strong>Menambahkan PATH Environment pada system</strong>
-PATH file /etc/profile dan tambahkan variable sistem berikut untuk jalur sistem. Gunakan gedit atau text editor lainnya.</p>
+<ul>
+<li>Menambahkan PATH Environment pada system</li>
+</ul>
+
+<p>PATH file /etc/profile dan tambahkan variable sistem berikut untuk jalur sistem. Gunakan gedit atau text editor lainnya.</p>
 
 <pre><code>sudo gedit /etc/profile
 
@@ -301,18 +304,24 @@ export PATH
 
 </code></pre>
 
-<p>Perintah untuk memberitahukan sistem bahwa Oracle Java JRE tersedia untuk digunakan.</p>
+<ul>
+<li>Perintah untuk memberitahukan sistem bahwa Oracle Java JRE tersedia untuk digunakan.</li>
+</ul>
 
 <pre><code>sudo update-alternatives --install &quot;/usr/bin/java&quot; &quot;java&quot; &quot;/usr/local/java/jdk1.8.0_131/bin/java&quot; 1
 
 </code></pre>
 
-<p>Perintah ini memberitahukan sistem bahwa Oracle Java JDK tersedia untuk digunakan.</p>
+<ul>
+<li>Perintah ini memberitahukan sistem bahwa Oracle Java JDK tersedia untuk digunakan.</li>
+</ul>
 
 <pre><code>sudo update-alternatives --install &quot;/usr/bin/javac&quot; &quot;javac&quot; &quot;/usr/local/java/jdk1.8.0_131/bin/javac&quot; 1
 </code></pre>
 
-<p>Perintah ini memberitahukan sistem bahwa Oracle Java Web Start tersedia untuk digunakan.</p>
+<ul>
+<li>Perintah ini memberitahukan sistem bahwa Oracle Java Web Start tersedia untuk digunakan.</li>
+</ul>
 
 <pre><code>sudo update-alternatives --install &quot;/usr/bin/javaws&quot; &quot;javaws&quot; &quot;/usr/local/java/jdk1.8.0_131/bin/javaws&quot; 1
 
@@ -320,38 +329,40 @@ export PATH
 
 <h3 id="memberitahu-sistem-bahwa-oracle-java-jdk-jre-harus-menjadi-default-java">Memberitahu sistem bahwa Oracle Java JDK/JRE harus menjadi default Java.</h3>
 
-<ul>
-<li>Setting JRE:</li>
-</ul>
+<p>Set JRE:</p>
 
 <pre><code>sudo update-alternatives --set java /usr/local/java/jdk1.8.0_131/bin/java
 </code></pre>
 
 <ul>
-<li>Setting Javac Compiler</li>
+<li>Set Javac Compiler</li>
 </ul>
 
 <pre><code>sudo update-alternatives --set javac /usr/local/java/jdk1.8.0_131/bin/javac
 </code></pre>
 
 <ul>
-<li><p>Setting Java Web Start</p>
+<li>Set Java Web Start</li>
+</ul>
 
 <pre><code>sudo update-alternatives --set javaws /usr/local/java/jdk1.8.0_131/bin/javaws 
-</code></pre></li>
+</code></pre>
 
-<li><p>Reload system wide PATH /etc/profile dengan perintah:</p></li>
+<ul>
+<li>Reload system wide PATH /etc/profile dengan perintah:</li>
 </ul>
 
 <pre><code>. /etc/profile
 </code></pre>
 
-<p>Tes untuk melihat apakah Oracle Java telah terinstal</p>
+<ul>
+<li>Tes untuk melihat apakah Oracle Java telah terinstal</li>
+</ul>
 
 <pre><code>java -version
 </code></pre>
 
-<h2 id="install-netbean-8-2">Install Netbean 8.2</h2>
+<h3 id="install-netbean-8-2">Install Netbean 8.2</h3>
 
 <p><a href="https://netbeans.org/downloads/index.html">NetBean Download</a></p>
 
@@ -361,7 +372,7 @@ export PATH
 $ sh ./netbeans-8.2-linux.sh
 </code></pre>
 
-<h2 id="install-maven">Install Maven</h2>
+<h3 id="install-maven">Install Maven</h3>
 
 <p><a href="http://apache.repo.unpas.ac.id/maven/maven-3/3.5.0/binaries/apache-maven-3.5.0-bin.tar.gz">Maven 3.5.0</a></p>
 
@@ -380,7 +391,9 @@ $ sh ./netbeans-8.2-linux.sh
 <pre><code>echo $JAVA_HOME
 </code></pre>
 
-<p><strong>Adding to PATH</strong></p>
+<ul>
+<li>Adding to PATH</li>
+</ul>
 
 <pre><code>export PATH=/opt/apache-maven-3.5.0/bin:$PATH
 </code></pre>
@@ -397,16 +410,16 @@ PATH=$PATH:$M2
 export PATH
 </code></pre>
 
-<ul>
-<li><p>Reload system ketik: ‘source /etc/profile’</p></li>
+<p>Reload system ketik: ‘source /etc/profile’</p>
 
-<li><p>Test Installation</p></li>
+<ul>
+<li>Test Installation</li>
 </ul>
 
 <pre><code> $ mvn –version
 </code></pre>
 
-<h2 id="install-mysql-5-7-di-debian-8-dengan-menggunakan-apt-repository">Install MySQl 5.7 di debian 8 dengan menggunakan APT Repository</h2>
+<h3 id="install-mysql-5-7-di-debian-8-dengan-menggunakan-apt-repository">Install MySQl 5.7 di debian 8 dengan menggunakan APT Repository</h3>
 
 <p>Download deb dpkg</p>
 
@@ -461,7 +474,7 @@ create table customers (customer_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, fir
 
 <p>Cara Stop the current MySQL server instance.</p>
 
-<pre><code>sudo systemctl stop mysql.serivice
+<pre><code>sudo systemctl stop mysql.service
 </code></pre>
 
 <p>Install Tune MySQL</p>
@@ -482,12 +495,18 @@ Please enter your MySQL administrative password:
 
 <p>MySql config file berada <code>/etc/mysql/my.cnf</code>
  MySql se
-cara restart MySQL setelah merubah config, jalankan perintah di bawah :</p>
+cara stop, start dan restart MySQL setelah merubah config, jalankan perintah di bawah :</p>
 
-<pre><code>/etc/init.d/mysql restart
+<pre><code>sudo /etc/init.d/mysql stop
+sudo /etc/init.d/mysql start
+sudo /etc/init.d/mysql restart
 </code></pre>
 
-<h2 id="install-tomcat-8-5-x-di-debian-jessy">Install Tomcat 8.5.x di debian jessy</h2>
+<h3 id="install-tomcat-8-5-x-di-debian-jessy">Install Tomcat 8.5.x di debian jessy</h3>
+
+<p><a href="https://wolfpaulus.com/java/tomcat-jessie/">Install Tomcat</a></p>
+
+<p><a href="http://www.debiantutorials.com/category/web/">debian tutorial</a></p>
 
 <p>Ketikkan bash di bawah</p>
 
@@ -507,7 +526,9 @@ Creating home directory `/home/tomcat' ...
 
 </code></pre>
 
-<h1 id="download-dan-extrak-paket-tomcat-8">Download dan extrak paket tomcat 8</h1>
+<ul>
+<li>Download dan extrak paket tomcat 8</li>
+</ul>
 
 <pre><code>$ wget http://www.us.apache.org/dist/tomcat/tomcat-8/v8.5.5/bin/apache-tomcat-8.5.5.tar.gz
 $ tar xvzf ./apache-tomcat-8.5.5.tar.gz
@@ -529,7 +550,9 @@ $ sudo chmod +x /usr/share/tomcat/bin/*.sh
 
 </code></pre>
 
-<p>#Starting Tomcat</p>
+<ul>
+<li>Starting Tomcat</li>
+</ul>
 
 <pre><code>$ sudo /bin/su - tomcat -c /usr/share/tomcat/bin/startup.sh
 Using CATALINA_BASE:   /usr/share/tomcat
@@ -541,7 +564,9 @@ Tomcat started.
 
 </code></pre>
 
-<p>#Stopping Tomcat</p>
+<ul>
+<li>Stopping Tomcat</li>
+</ul>
 
 <pre><code>$ sudo /bin/su - tomcat -c /usr/share/tomcat/bin/shutdown.sh
 Using CATALINA_BASE:   /usr/share/tomcat
@@ -552,7 +577,9 @@ Using CLASSPATH:       /usr/share/tomcat/bin/bootstrap.jar:/usr/share/tomcat/bin
 
 </code></pre>
 
-<p>#Menjalankan server tomcat pada saat booting pertama kali</p>
+<ul>
+<li>Menjalankan server tomcat pada saat booting pertama kali</li>
+</ul>
 
 <pre><code>#!/bin/bash
  
@@ -588,11 +615,7 @@ esac
 update-rc.d tomcat defaults
 </code></pre>
 
-<p><a href="https://wolfpaulus.com/java/tomcat-jessie/">Install Tomcat</a></p>
-
-<p><a href="http://www.debiantutorials.com/category/web/">debian tutorial</a></p>
-
-<h2 id="install-intellij-idea">Install IntelliJ IDEA</h2>
+<h3 id="install-intellij-idea">Install IntelliJ IDEA</h3>
 
 <p>Download IntelliJ IDEA <a href="https://www.jetbrains.com/idea/download/download-thanks.html?platform=linux&amp;code=IIC">ideaIC-2017.1.2.tar.gz</a></p>
 
@@ -620,6 +643,64 @@ update-rc.d tomcat defaults
 </code></pre>
 
 <p>Selanjutnya ikuti instalasi seperti biasa.</p>
+
+<h3 id="install-android-studio">Install Android Studio</h3>
+
+<p>Extract <code>android-studio-ide-162.4069837-linux.zip</code> ke dalam folder <code>/opt</code></p>
+
+<pre><code>$ sudo unzip android-studio-ide-141.2178183-linux.zip -d /opt/
+</code></pre>
+
+<p>Masuk ke directory di bawah</p>
+
+<pre><code>$ cd /opt/android-studio/bin
+</code></pre>
+
+<p>Jalankan command di bawah untuk menjalankan instalasi</p>
+
+<pre><code>$ ./studio.sh
+</code></pre>
+
+<p>Selanjutnya ikuti instalasi seperti biasa.</p>
+
+<ul>
+<li>install plugin yang berhubungan dengan kotlin</li>
+</ul>
+
+<h3 id="install-mongodb">Install MongoDB</h3>
+
+<p><a href="https://www.hugeserver.com/kb/install-mongodb-debian-8-ubuntu-16/">install mongoDB</a>
+<a href="https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-debian-8">mongoDB DigitalOcean</a></p>
+
+<p>tambahkan</p>
+
+<pre><code>#security:
+security:
+ authorization: enabled
+</code></pre>
+
+<p>Manage your MongoDB Service</p>
+
+<pre><code># systemctl enable mongod
+</code></pre>
+
+<p>For Start/Stop MongoDB serivce:</p>
+
+<pre><code># systemctl start mongod
+
+# systemctl stop mongod
+
+or
+
+# service mongod start
+
+# service mongod stop
+</code></pre>
+
+<p>See your MongoDB status:</p>
+
+<pre><code># systemctl status mongod
+</code></pre>
 
 
                       </div>
@@ -679,20 +760,16 @@ update-rc.d tomcat defaults
                         <li><a id="footer-terms-link" href="/blog/">Blog</a></li>
                         <li><a id="footer-support-link" href="/about/">About</a></li>
                         <li><a id="footer-privacy-link" href="/contact/">Contact</a></li>
-                        <li><a id="footer-privacy-link" href="/faq/">Faq</a></li>
-                        
-                    </ul>
-                    <hr>
-                    <div class="copyright">
-                    <ul class="links">
-                    <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="http://google-plus.com"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
+                    <hr>
+                    <div class="text-center">
                         <a id="footer-microsoft-link" class="logo" href="https://gohugo.io" alt="Power By Hugo">Power By Hugo</a>
-                        <span>&copy; 2017 <span itemprop="publisher" itemscope itemtype="#"><span itemprop="name">tipobrata</span></span></span> 
+                        <span>&copy; 2017 <span itemprop="publisher" itemscope itemtype="#"><span itemprop="name">Tipobrata</span></span></span>
                     </div>
+                    
                 </div>
                 </div>
                 </div>

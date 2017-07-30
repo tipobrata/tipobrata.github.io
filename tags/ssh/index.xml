@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssh on home</title>
+    <link>https://tipobrata.github.io/tags/ssh/</link>
+    <description>Recent content in Ssh on home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Jul 2017 21:49:20 +0200</lastBuildDate>
+    
+	<atom:link href="https://tipobrata.github.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Menggunakan Ssh</title>
+      <link>https://tipobrata.github.io/post/2017/07/06/ssh-keys-on-linux/</link>
+      <pubDate>Thu, 06 Jul 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://tipobrata.github.io/post/2017/07/06/ssh-keys-on-linux/</guid>
+      <description>Cara mengecek key rsa yang sudah di ada $ ls -al ~/.ssh  Cara membuat ssh Keys dengan ssh $ ssh-keygen -t rsa -b 4096 -C &amp;quot;xperia.tipobrata@gmail.com&amp;quot; Generating public/private rsa key pair. Enter file in which to save the key (/home/nagamaska/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /home/nagamaska/.ssh/id_rsa. Your public key has been saved in /home/nagamaska/.ssh/id_rsa.pub. The key fingerprint is: 31:1e:74:a3:dc:17:cd:5a:a9:5d:4c:28:c1:a9:28:c8 xperia.</description>
+    </item>
+    
+  </channel>
+</rss>

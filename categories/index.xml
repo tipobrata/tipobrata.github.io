@@ -21,11 +21,29 @@
     </item>
     
     <item>
+      <title>Database</title>
+      <link>https://tipobrata.github.io/categories/database/</link>
+      <pubDate>Fri, 14 Jul 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://tipobrata.github.io/categories/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Frontend</title>
       <link>https://tipobrata.github.io/categories/frontend/</link>
-      <pubDate>Sun, 30 Apr 2017 21:49:20 +0200</pubDate>
+      <pubDate>Sun, 23 Jul 2017 21:49:20 +0200</pubDate>
       
       <guid>https://tipobrata.github.io/categories/frontend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://tipobrata.github.io/categories/hugo/</link>
+      <pubDate>Fri, 28 Jul 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://tipobrata.github.io/categories/hugo/</guid>
       <description></description>
     </item>
     
@@ -41,7 +59,7 @@
     <item>
       <title>Linux</title>
       <link>https://tipobrata.github.io/categories/linux/</link>
-      <pubDate>Mon, 22 May 2017 21:49:20 +0200</pubDate>
+      <pubDate>Thu, 06 Jul 2017 21:49:20 +0200</pubDate>
       
       <guid>https://tipobrata.github.io/categories/linux/</guid>
       <description></description>

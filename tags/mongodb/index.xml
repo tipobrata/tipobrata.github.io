@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mongodb on home</title>
+    <link>https://tipobrata.github.io/tags/mongodb/</link>
+    <description>Recent content in Mongodb on home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jul 2017 21:49:20 +0200</lastBuildDate>
+    
+	<atom:link href="https://tipobrata.github.io/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tutorial MongoDB</title>
+      <link>https://tipobrata.github.io/post/2017/07/14/belajar-mongodb/</link>
+      <pubDate>Fri, 14 Jul 2017 21:49:20 +0200</pubDate>
+      
+      <guid>https://tipobrata.github.io/post/2017/07/14/belajar-mongodb/</guid>
+      <description>Contoh Database { firstname:&amp;quot;dodot&amp;quot;, lastname:&amp;quot;didit&amp;quot;, memberships: [&amp;quot;mem1&amp;quot;, &amp;quot;mem2&amp;quot;], address:{ street: &amp;quot;jl. pramuka sokaraja&amp;quot;, city:&amp;quot;banyumas&amp;quot; } contacts:[ {name:&amp;quot;brath&amp;quot;, relationship:&amp;quot;friend&amp;quot;}, ] }  Membuat Tabel &amp;gt; use mycustomers switched to db mycustomers &amp;gt; db mycustomers  Membuat user db.createUser({ user:&amp;quot;didit&amp;quot;, pwd:&amp;quot;12345&amp;quot;, roles: [&amp;quot;readWrite&amp;quot;, &amp;quot;dbAdmin&amp;quot;] });  Membuat collection / table &amp;gt; db.createCollection(&#39;customers&#39;);  Insert data ke collection customers &amp;gt; db.customers.insert({first_name:&amp;quot;wirog&amp;quot;, last_name:&amp;quot;sebastian&amp;quot;}); WriteResult({ &amp;quot;nInserted&amp;quot; : 1 })  Insert 2 data &amp;gt; db.</description>
+    </item>
+    
+  </channel>
+</rss>
