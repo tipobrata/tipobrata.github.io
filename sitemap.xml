@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tipobrata.github.io/post/2017/05/26/2017-05-26-pre-ramadhan/</loc>
-    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tipobrata.github.io/about/</loc>
     <lastmod>2017-05-26T21:49:20+02:00</lastmod>
   </url>
@@ -68,18 +63,13 @@
   </url>
   
   <url>
-    <loc>https://tipobrata.github.io/post/2015/10/10/migrate-from-jekyll/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tipobrata.github.io/tags/angular/</loc>
+    <loc>https://tipobrata.github.io/categories/angular/</loc>
     <lastmod>2017-03-26T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tipobrata.github.io/categories/angular/</loc>
+    <loc>https://tipobrata.github.io/tags/angular/</loc>
     <lastmod>2017-03-26T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -115,26 +105,14 @@
   </url>
   
   <url>
-    <loc>https://tipobrata.github.io/tags/ionic/</loc>
-    <lastmod>2017-02-06T21:49:20+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://tipobrata.github.io/categories/ionic/</loc>
     <lastmod>2017-02-06T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tipobrata.github.io/tags/ipsum/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tipobrata.github.io/tags/linux/</loc>
-    <lastmod>2017-05-22T21:49:20+02:00</lastmod>
+    <loc>https://tipobrata.github.io/tags/ionic/</loc>
+    <lastmod>2017-02-06T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -145,8 +123,8 @@
   </url>
   
   <url>
-    <loc>https://tipobrata.github.io/tags/loopback/</loc>
-    <lastmod>2017-05-21T21:49:20+02:00</lastmod>
+    <loc>https://tipobrata.github.io/tags/linux/</loc>
+    <lastmod>2017-05-22T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -157,19 +135,19 @@
   </url>
   
   <url>
-    <loc>https://tipobrata.github.io/categories/lorem/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://tipobrata.github.io/tags/material/</loc>
-    <lastmod>2017-03-10T21:49:20+02:00</lastmod>
+    <loc>https://tipobrata.github.io/tags/loopback/</loc>
+    <lastmod>2017-05-21T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tipobrata.github.io/categories/material/</loc>
+    <lastmod>2017-03-10T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tipobrata.github.io/tags/material/</loc>
     <lastmod>2017-03-10T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -200,7 +178,7 @@
   
   <url>
     <loc>https://tipobrata.github.io/</loc>
-    <lastmod>2017-05-26T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-26T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   

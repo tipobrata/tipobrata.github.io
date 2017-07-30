@@ -129,27 +129,5 @@ Folder yang harus di pahami :
   1. Buka Folder app -&amp;gt; /ionreddit/src/app/app.module.ts  import { NgModule, ErrorHandler } from &#39;@angular/core&#39;; import { IonicApp, IonicModule, IonicErrorHandler } from &#39;ionic-angular&#39;; import { MyApp } from &#39;.</description>
     </item>
     
-    <item>
-      <title>Migrate from Jekyll</title>
-      <link>https://tipobrata.github.io/post/2015/10/10/migrate-from-jekyll/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
-      
-      <guid>https://tipobrata.github.io/post/2015/10/10/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
-      <title>Pre Ramadhan</title>
-      <link>https://tipobrata.github.io/post/2017/05/26/2017-05-26-pre-ramadhan/</link>
-      <pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://tipobrata.github.io/post/2017/05/26/2017-05-26-pre-ramadhan/</guid>
-      <description>Niat Berpuasa &amp;quot;Nawaitu sauma ghadin an&#39;adai fardi syahri ramadhana hadzihisanati lillahita&#39;ala&amp;quot;   Artinya: &amp;ldquo;Sengaja aku berpuasa esok hari untuk menunaikan fardhu puasa pada bulan Ramadhan bagi tahun ini karena Allah Taala&amp;rdquo;
- Niat Buka Puasa &amp;quot;Allahummalakasumtu wabika aamantu wa&#39;alarizqika afthortu birohmatikaya ar-hamarrahimin&amp;quot;   Artinya: Ya Allah, untuk-Mu aku berpuasa dan dengan rizki-Mu aku berbuka, Maha besar Allah yang maha pemurah lagi maha penyayang.
- Niat Sholat Tarawih Latin : Usholli sunnatattarawihi rak&#39;ataini mustaqbilalqiblati ma-muman lillahi ta&#39;ala.</description>
-    </item>
-    
   </channel>
 </rss>
